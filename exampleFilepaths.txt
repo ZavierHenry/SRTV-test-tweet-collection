@@ -1,6 +1,8 @@
 basicPrivateTweet.json
 basicReply.json
 basicVerifiedTweet.json
+emojis/cow.json
+emojis/downcastFaceWithSweat.json
 emojis/faceScreamingInFear.json
 emojis/fire.json
 emojis/grimacingFace.json
