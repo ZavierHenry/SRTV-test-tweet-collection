@@ -17,6 +17,7 @@ numbers/romanNumeral60.json
 numbers/height.json
 numbers/ranges/threeToFour.json
 numbers/ranges/74to67.json
+numbers/ranges/yearRanges.json
 numbers/temperatures.json
 numbers/romanNumeral13.json
 numbers/phoneNumberDots.json
@@ -30,6 +31,7 @@ numbers/ordinals/threehundredthirtieth.json
 numbers/ordinals/first.json
 numbers/ordinals/second.json
 numbers/decimalPercentage.json
+numbers/decimalWithoutLeadingNumber.json
 numbers/phoneNumberOnePlus.json
 numbers/numberWithComma.json
 quotedTweet.json
@@ -54,6 +56,7 @@ emojis/rollingOnTheFloorLaughing.json
 emojis/smilies.json
 emojis/downcastFaceWithSweat.json
 emojis/starstruckRocket.json
+emojis/womanShrugging.json
 imagesAltText.json
 threeReplyingTo.json
 multipleTcoLinks.json
