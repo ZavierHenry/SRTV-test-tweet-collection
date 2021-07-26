@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the ordinal 1,769th (including with a comma)",
+    "tweet": {
+        "dateCreated": "2021-07-25T00:28:11.000Z",
+        "text": "Miguel Cabrera's sac fly Saturday night drove in his 1,769th career RBI. \n\nThat breaks a tie with David Ortiz for 20th on the all-time leaderboard. https://t.co/aXLNMueBd3",
+        "id": "1419092078336876546",
+        "author": {
+            "screenName": "ESPNStatsInfo",
+            "name": "ESPN Stats & Info",
+            "verified": true,
+            "protected": false       
+        },
+        "imageAltTexts": [ "" ]
+    }
+}

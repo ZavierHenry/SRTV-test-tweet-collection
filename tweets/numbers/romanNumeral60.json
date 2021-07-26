@@ -1,0 +1,14 @@
+{
+    "label": "Tweet containing the Roman numberal 60 (LX)",
+    "tweet": {
+        "text": "Jordan Love: Super Bowl LX MVP",
+        "dateCreated": "2020-04-24T04:15:07.000Z",
+        "id": "1253537933770047488",
+        "author": {
+            "screenName": "GrahamThoughts",
+            "protected": false,
+            "verified": false,
+            "name": "Zen G"          
+        }        
+    }
+}
