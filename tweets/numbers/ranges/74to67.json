@@ -1,0 +1,15 @@
+{
+    "label": "Tweet containing the range 74-67",
+    "tweet": {
+        "id": "1419328934559289344",
+        "dateCreated": "2021-07-25T16:09:22.000Z",
+        "text": "Team USA led 74-67 with 3:41 left in the game, but were outscored 16-2 by France in the final 3:40 while shooting 0-of-9 from the field. https://t.co/mUjyhyktAp",
+        "author": {
+            "name": "ESPN Stats & Info",
+            "protected": false,
+            "screenName": "ESPNStatsInfo",
+            "verified": true
+        },
+        "imageAltTexts": [ "" ]
+    }
+}
