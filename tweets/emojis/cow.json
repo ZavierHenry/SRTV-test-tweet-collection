@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the cow emoji",
+    "tweet": {
+        "text": "@paul_edwin I had similar yesterday 🐄🐄🐄🐄 https://t.co/zDlBQX7gSD",
+        "id": "1419346981953101830",
+        "dateCreated": "2021-07-25T17:21:05.000Z",
+        "author": {
+            "name": "Northumbria Cycling",
+            "screenName": "NorthumbriaCC",
+            "verified": false,
+            "protected": false
+        },
+        "repliedTo": [ "paul_edwin"]
+    }
+}

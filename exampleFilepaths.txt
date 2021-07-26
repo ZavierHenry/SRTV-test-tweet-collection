@@ -1,6 +1,8 @@
 basicPrivateTweet.json
 basicReply.json
 basicVerifiedTweet.json
+emojis/cow.json
+emojis/downcastFaceWithSweat.json
 emojis/faceScreamingInFear.json
 emojis/fire.json
 emojis/grimacingFace.json
@@ -20,6 +22,7 @@ noCardUrlDisplay.json
 numbers/centimeters.json
 numbers/dates/jan6.json
 numbers/dates/mddyy.json
+numbers/dates/mmddyyyy.json
 numbers/decimalPercentage.json
 numbers/feet.json
 numbers/height.json
@@ -28,10 +31,12 @@ numbers/numberWithComma.json
 numbers/ordinals/first.json
 numbers/ordinals/second.json
 numbers/ordinals/third.json
+numbers/ordinals/threehundredthirtieth.json
 numbers/ordinals/twentyfourth.json
 numbers/ordinals/zeroth.json
 numbers/phoneNumberDots.json
 numbers/phoneNumberOnePlus.json
+numbers/ranges/threeToFour.json
 numbers/temperatures.json
 numbers/year.json
 poll.json
