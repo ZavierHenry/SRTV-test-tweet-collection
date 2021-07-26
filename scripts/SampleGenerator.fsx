@@ -122,8 +122,8 @@ let (|IntegerType|_|) =
     let handler mapping =
         let minimum = tryGetInteger64Property "minimum" mapping
         let maximum = tryGetInteger64Property "maximum" mapping 
-        let exclusiveMinimum = tryGetBooleanProperty "exclusiveMinimum" mapping
-        let exclusiveMaximum = tryGetBooleanProperty "exclusiveMaximum" mapping
+        let exclusiveMinimum = tryGetInt64Property "exclusiveMinimum" mapping
+        let exclusiveMaximum = tryGetInt64Property "exclusiveMaximum" mapping
         Some (minimum, maximum, exclusiveMinimum, exclusiveMaximum)
     matchPropertyType "integer" handler
     
@@ -131,8 +131,8 @@ let (|NumberType|_|) =
     let handler mapping =
         let minimum = tryGetFloatProperty "minimum" mapping 
         let maximum = tryGetFloatProperty "maximum" mapping
-        let exclusiveMinimum = tryGetBooleanProperty "exclusiveMinimum" mapping
-        let exclusiveMaximum = tryGetBooleanProperty "exclusiveMaximum" mapping
+        let exclusiveMinimum = tryGetFloatProperty "exclusiveMinimum" mapping
+        let exclusiveMaximum = tryGetFloatProperty "exclusiveMaximum" mapping
         Some (minimum, maximum, exclusiveMinimum, exclusiveMaximum)
     matchPropertyType "number" handler
 
@@ -145,7 +145,7 @@ let (|ObjectType|_|) =
 
 let (|RefType|_|) = function
     | JVal.Record [| ("$ref", JVal.String name) |] ->
-        let ref = Regex.Match(name, @"^#/definitions/(\w+)$")
+        let ref = Regex.Match(name, @"^#/\$defs/(\w+)$")
         Some (ref.Groups.[1].Value) |> Option.filter (fun _ -> ref.Groups.[1].Success)
     | _ -> None
 
@@ -299,20 +299,24 @@ let rec toSchema (definitions:Map<string,Schema>) jsonvalue =
             then TContradiction
             else TStr ( StringConstraint (minLength, maxLength) )
         | IntegerType (min, max, exclusiveMin, exclusiveMax) -> 
-            let exclusiveMin = Option.defaultValue false exclusiveMin
-            let exclusiveMax = Option.defaultValue false exclusiveMax
-
-            let min = Option.defaultValue Int64.MinValue min + (if exclusiveMin then 1L else 0L)
-            let max = Option.defaultValue Int64.MaxValue max - (if exclusiveMax then 1L else 0L)
+            let min =
+                let f = Option.defaultValue Int64.MinValue
+                (f min, (f exclusiveMin) + 1) |> Math.Min
+            
+            let max =
+                let f = Option.defaultValue Int64.MaxValue
+                (f max, ((f exclusiveMax) - 1) |> Math.Max
             
             if min > max then TContradiction
             else TInteger ( IntegerConstraint (min, max) )
         | NumberType (min, max, exclusiveMin, exclusiveMax) ->
-            let exclusiveMin = Option.defaultValue false exclusiveMin
-            let exclusiveMax = Option.defaultValue false exclusiveMax
-
-            let min = Option.defaultValue Double.MinValue min + (if exclusiveMin then Double.Epsilon else 0.0)
-            let max = Option.defaultValue Double.MaxValue max - (if exclusiveMax then Double.Epsilon else 0.0)
+            let min =
+                let f = Option.defaultValue Double.MinValue
+                (f min, (f exclusiveMin) + Double.Epsilon) |> Math.Min
+            
+            let max =
+                let f = Option.defaultValue Double.MaxValue
+                (f max, ((f exclusiveMax) - Double.Epsilon) |> Math.Max
 
             if min > max then TContradiction
             else TNumber ( NumberConstraint (min, max) )
@@ -407,7 +411,7 @@ let rec generateExamples = function
 let parseDictionary = function
     | JVal.Record properties ->
         Map properties
-        |> Map.tryFind "definitions"
+        |> Map.tryFind "$defs"
         |> Option.bind (function | JVal.Record p -> Some p | _ -> None)
         |> Option.map (Map << Array.map (fun (n, v) -> (n, toSchema Map.empty v)))
         |> Option.defaultValue Map.empty 
