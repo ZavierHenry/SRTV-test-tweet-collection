@@ -10,6 +10,6 @@
             "verified": true,
             "protected": false       
         },
-        "imageAltTexts": [ "" ]
+        "imageAltTexts": [ false ]
     }
 }

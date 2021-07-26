@@ -1,10 +1,10 @@
 ﻿{
   "title": "SRTV Test Tweet Schema",
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "version": "1.0.0",
   "description": "A tweet in the test corpus",
   "type": "object",
-  "definitions": {
+  "$defs": {
     "date": {
       "type": "string",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.0*)?Z$"
@@ -47,8 +47,8 @@
           "description": "Tweet ID",
           "pattern": "^\\d+$"
         },
-        "author": { "$ref": "#/definitions/author" },
-        "dateCreated": {"$ref":  "#/definitions/date" },
+        "author": { "$ref": "#/$defs/author" },
+        "dateCreated": {"$ref":  "#/$defs/date" },
         "text": {
           "type": "string",
           "description": "Text of the original tweet"
@@ -63,63 +63,87 @@
           "description": "Screen names of people the tweet is replying to. Make sure to omit the leading @ when adding screen names",
           "items": {
             "type": "string",
-            "pattern": "^[^@]"
+            "pattern": "^[^@]",
+            "minLength": 1
           }
         },
         "quotedTweet": {
-          "type": ["object", "null"],
           "description": "Tweet that the original tweet is quoting if applicable",
-          "properties": {
-            "dateCreated": { "$ref":  "#/definitions/date" },
-            "author": { "$ref": "#/definitions/author" },
-            "text": {
-              "type": "string",
-              "description": "Text of the quoted tweet"
-            },
-            "repliedTo": {
-              "type": "array",
-              "description": "Screen names to which the quoted tweet is replying",
-              "items": {
-                "type": "string",
-                "pattern": "^[^@]"
-              }
-            },
-            "imageAltTexts": {
-              "type": "array",
-              "description": "Image alt text of the images of the quoted tweet",
-              "items": {
-                "type": [ "string", "null" ]
-              }
-            },
-            "videoAttribution": {
-              "type": [ "string", "null" ],
-              "description": "Name attribution of the quoted tweet video"
-            },
-            "gifAltText": {
-              "type": [ "string", "null" ],
-              "description": "Alt text of the quoted tweet GIF"
-            },
-            "hasPoll": {
-              "type": "boolean",
-              "description": "Specifies whether the quoted tweet has a poll"
+          "anyOf": [
+            { "type": "boolean", "const": false },
+            { "type": "object",
+              "properties": {
+                "dateCreated": { "$ref":  "#/$defs/date" },
+                "author": { "$ref": "#/$defs/author" },
+                "text": {
+                  "type": "string",
+                  "description": "Text of the quoted tweet"
+                },
+                "repliedTo": {
+                  "type": "array",
+                  "description": "Screen names to which the quoted tweet is replying",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[^@]",
+                    "minLength": 1
+                  }
+                },
+                "imageAltTexts": {
+                  "type": "array",
+                  "description": "Image alt text of the images of the quoted tweet",
+                  "items": {
+                    "anyOf": [
+                      { "type": "boolean", "const": false },
+                      { "type": "string", "minLength": 1 }
+                    ]
+                  }
+                },
+                "videoAttribution": {
+                  "description": "Name attribution of the quoted tweet video",
+                  "anyOf": [
+                    { "type": "boolean", "const": false },
+                    { "type": "string", "minLength": 1 }
+                  ]
+                },
+                "gifAltText": {
+                  "description": "Alt text of the quoted tweet GIF",
+                  "anyOf": [
+                    { "type": "boolean", "const": false },
+                    { "type": "string", "minLength": 1 }
+                  ]
+                },
+                "hasPoll": {
+                  "type": "boolean",
+                  "description": "Specifies whether the quoted tweet has a poll"
+                }
+              },
+              "required": ["author", "dateCreated", "text", "hasPoll" ]
             }
-          },
-          "required": ["author", "dateCreated", "text", "hasPoll" ]
+          ]
         },
         "imageAltTexts": {
           "type": "array",
           "description": "Alt text of images in the tweet if there are images",
           "items": {
-            "type": [ "string", "null" ]
+            "anyOf": [
+              { "type": "boolean", "const": false },
+              { "type": "string", "minLength": 1 }
+            ]
           }
         },
         "videoAttribution": {
-          "type": [ "string", "null" ],
-          "description": "Name of account video is attributed to if applicable"
+          "description": "Name of account video is attributed to if applicable",
+          "anyOf": [
+            { "type": "boolean", "const": false },
+            { "type": "string", "minLength": 1 }
+          ]
         },
         "gifAltText": {
-          "type": [ "string", "null" ],
-          "description": "Alt text of GIF if applicable"
+          "description": "Alt text of GIF if applicable",
+          "anyOf": [
+            { "type": "boolean", "const": false },
+            { "type": "string", "minLength": 1 }
+          ]
         },
         "urlCard": {
           "type": "object",
@@ -136,6 +160,10 @@
             "url": {
               "type": "string",
               "description": "Url for the url card"
+            },
+            "shortenedUrl": {
+              "type": "string",
+              "description": "Shortened url for the url card"
             }
           },
           "required": ["title", "description", "url"]
@@ -144,7 +172,7 @@
           "type": "object",
           "description": "Tweet poll if applicable",
           "properties": {
-            "endDate": { "$ref":  "#/definitions/date" },
+            "endDate": { "$ref":  "#/$defs/date" },
             "options": {
               "type": "array",
               "description": "Poll options and number of votes received",
