@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with a whole number range in it",
+    "tweet": {
+        "id": "1417919452033675265",
+        "text": "XSS is everywhere, getting xss on 3-4 years old program is super cool :)",
+        "dateCreated": "2021-07-21T18:48:35.000Z",
+        "author": {
+            "screenName": "0xMstar",
+            "protected": false,
+            "verified": false,
+            "name": "MorningStar" 
+        }
+    }
+}

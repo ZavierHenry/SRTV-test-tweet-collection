@@ -36,6 +36,7 @@ numbers/ordinals/twentyfourth.json
 numbers/ordinals/zeroth.json
 numbers/phoneNumberDots.json
 numbers/phoneNumberOnePlus.json
+numbers/ranges/threeToFour.json
 numbers/temperatures.json
 numbers/year.json
 poll.json
