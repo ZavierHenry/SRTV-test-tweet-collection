@@ -7,6 +7,7 @@ punctuation/atSymbol.json
 punctuation/mathEquation.json
 punctuation/percent.json
 punctuation/hashtag.json
+unavailableQuotedTweet.json
 gifNoAltText.json
 numbers/dates/mmddyyyy.json
 numbers/dates/jan6.json
@@ -18,11 +19,8 @@ numbers/height.json
 numbers/ranges/threeToFour.json
 numbers/ranges/74to67.json
 numbers/ranges/yearRanges.json
-numbers/temperatures.json
 numbers/romanNumeral13.json
 numbers/phoneNumberDots.json
-numbers/centimeters.json
-numbers/feet.json
 numbers/ordinals/third.json
 numbers/ordinals/zeroth.json
 numbers/ordinals/1769th.json
@@ -34,6 +32,9 @@ numbers/decimalPercentage.json
 numbers/decimalWithoutLeadingNumber.json
 numbers/phoneNumberOnePlus.json
 numbers/numberWithComma.json
+numbers/abbreviations/centimeters.json
+numbers/abbreviations/feet.json
+numbers/abbreviations/degreesCelcius.json
 quotedTweet.json
 retweet.json
 videoAttribution.json
@@ -44,7 +45,10 @@ basicPrivateTweet.json
 fourReplyingTo.json
 noCardUrlDisplay.json
 twoReplyingTo.json
+gifAltText.json
 emojis/seeNoEvilMonkey.json
+emojis/worriedFace.json
+emojis/explodingFace.json
 emojis/huggingFace.json
 emojis/loudlyCryingWithSkull.json
 emojis/grimacingFace.json
