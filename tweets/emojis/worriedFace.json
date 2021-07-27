@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with the emoji worried face",
+    "tweet": {
+        "id": "1420105649703329793",
+        "dateCreated": "2021-07-27T19:35:45.000Z",
+        "text": "😟",
+        "author": {
+            "protected": false,
+            "name": "Trill Withers",
+            "screenName": "TylerIAm",
+            "verified": false          
+        }
+    }
+}

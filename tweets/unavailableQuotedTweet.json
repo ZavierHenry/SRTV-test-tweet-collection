@@ -1,0 +1,17 @@
+{
+    "label": "Quote tweet where the original tweet is unavailable",
+    "tweet": {
+        "text": "wait what https://t.co/6TzuMOMaa0",
+        "id": "1419633151551451142",
+        "dateCreated": "2021-07-26T12:18:13.000Z",
+        "author": {
+            "protected": false,
+            "name": "bomani",
+            "screenName": "bomani_jones",
+            "verified": true
+        },
+        "quotedTweet": {
+            "available": false
+        }
+    }
+}
