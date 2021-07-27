@@ -429,16 +429,19 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "videoAttribution": { "hasAttribution": true, "attribution":"Video attribution"}
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "videoAttribution": { "hasAttribution": true, "attribution":"Video attribution"}
+        }
       }
     }
   }
