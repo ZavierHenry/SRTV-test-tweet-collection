@@ -11,16 +11,19 @@
     "dateCreated": "2021-06-30T21:11:11.000Z",
     "text": "WHAT?!!! 😭😭💀💀 https://t.co/VJ9uzvFgcn",
     "quotedTweet": {
-      "hasPoll": false,
-      "dateCreated": "2021-06-30T19:48:23.000Z",
-      "text": "Bruh what is happening to battle rap https://t.co/nN2R3pkfob",
-      "author": {
-        "name": "F.L.O.W. 🏁🖤",
-        "screenName": "flow349",
-        "protected": false,
-        "verified": false
-      },
-      "videoAttribution": false
+      "available": true,
+      "tweet": {
+        "hasPoll": false,
+        "dateCreated": "2021-06-30T19:48:23.000Z",
+        "text": "Bruh what is happening to battle rap https://t.co/nN2R3pkfob",
+        "author": {
+          "name": "F.L.O.W. 🏁🖤",
+          "screenName": "flow349",
+          "protected": false,
+          "verified": false
+        },
+        "videoAttribution": { "hasAttribution": false }
+      }
     }
   }
 }

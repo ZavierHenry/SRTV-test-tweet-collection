@@ -69,9 +69,11 @@
         },
         "quotedTweet": {
           "description": "Tweet that the original tweet is quoting if applicable",
-          "anyOf": [
-            { "type": "boolean", "const": false },
-            { "type": "object",
+          "type": "object",
+          "properties": {
+            "available": { "type": "boolean", "description": "Tells whether the quote tweet is available (not deleted) or not" },
+            "tweet": {
+              "type": "object",
               "properties": {
                 "dateCreated": { "$ref":  "#/$defs/date" },
                 "author": { "$ref": "#/$defs/author" },
@@ -92,25 +94,31 @@
                   "type": "array",
                   "description": "Image alt text of the images of the quoted tweet",
                   "items": {
-                    "anyOf": [
-                      { "type": "boolean", "const": false },
-                      { "type": "string", "minLength": 1 }
-                    ]
+                    "type": "object",
+                    "properties": {
+                      "hasAltText": {"type": "boolean" },
+                      "altText": { "type": "string" }
+                    },
+                    "required": ["hasAltText"]
                   }
                 },
                 "videoAttribution": {
                   "description": "Name attribution of the quoted tweet video",
-                  "anyOf": [
-                    { "type": "boolean", "const": false },
-                    { "type": "string", "minLength": 1 }
-                  ]
+                  "type": "object",
+                  "properties": {
+                    "hasAttribution": { "type": "boolean" },
+                    "attribution": { "type": "string" }
+                  },
+                  "required": [ "hasAttribution" ]
                 },
                 "gifAltText": {
                   "description": "Alt text of the quoted tweet GIF",
-                  "anyOf": [
-                    { "type": "boolean", "const": false },
-                    { "type": "string", "minLength": 1 }
-                  ]
+                  "type": "object",
+                  "properties": {
+                    "hasAltText": { "type": "boolean" },
+                    "altText": { "type": "string" }
+                  },
+                  "required": [ "hasAltText" ]
                 },
                 "hasPoll": {
                   "type": "boolean",
@@ -119,31 +127,38 @@
               },
               "required": ["author", "dateCreated", "text", "hasPoll" ]
             }
-          ]
+          },
+          "required": ["available"]
         },
         "imageAltTexts": {
           "type": "array",
           "description": "Alt text of images in the tweet if there are images",
           "items": {
-            "anyOf": [
-              { "type": "boolean", "const": false },
-              { "type": "string", "minLength": 1 }
-            ]
+            "type": "object",
+            "properties": {
+              "hasAltText": {"type": "boolean" },
+              "altText": { "type": "string" }
+            },
+            "required": ["hasAltText"]
           }
         },
         "videoAttribution": {
           "description": "Name of account video is attributed to if applicable",
-          "anyOf": [
-            { "type": "boolean", "const": false },
-            { "type": "string", "minLength": 1 }
-          ]
+          "type": "object",
+          "properties": {
+            "hasAttribution": { "type": "boolean" },
+            "attribution": { "type": "string" }
+          },
+          "required": ["hasAttribution"]
         },
         "gifAltText": {
           "description": "Alt text of GIF if applicable",
-          "anyOf": [
-            { "type": "boolean", "const": false },
-            { "type": "string", "minLength": 1 }
-          ]
+          "type": "object",
+          "properties": {
+            "hasAltText": { "type": "boolean" },
+            "altText": { "type": "string" }
+          },
+          "required": [ "hasAltText" ]
         },
         "urlCard": {
           "type": "object",

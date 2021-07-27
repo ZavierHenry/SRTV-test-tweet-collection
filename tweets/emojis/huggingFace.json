@@ -12,15 +12,18 @@
       "protected": false
     },
     "quotedTweet": {
-      "author": {
-        "name": "All In with Chris Hayes",
-        "verified": true,
-        "screenName": "allinwithchris",
-        "protected": false
-      },
-      "dateCreated": "2021-07-23T23:30:00.000Z",
-      "hasPoll": false,
-      "text": "Joining @chrislhayes tonight:\n@BrandyZadrozny \n@matthewabaum\n@ashishkjha \n@michelleinbklyn \n@kavithadavidson\nAaron Payment\n#inners"
+      "available": true,
+      "tweet": {
+        "author": {
+          "name": "All In with Chris Hayes",
+          "verified": true,
+          "screenName": "allinwithchris",
+          "protected": false
+        },
+        "dateCreated": "2021-07-23T23:30:00.000Z",
+        "hasPoll": false,
+        "text": "Joining @chrislhayes tonight:\n@BrandyZadrozny \n@matthewabaum\n@ashishkjha \n@michelleinbklyn \n@kavithadavidson\nAaron Payment\n#inners"
+      }
     }
   }
 }

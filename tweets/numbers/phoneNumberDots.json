@@ -10,6 +10,6 @@
       "name": "Creative Bus Sales",
       "screenName": "creativebussale"
     },
-    "imageAltTexts": [ false ]
+    "imageAltTexts": [ {"hasAltText": false} ]
   }
 }
