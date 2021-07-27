@@ -1,0 +1,18 @@
+{
+    "label": "Tweet with a GIF that has alt text",
+    "tweet": {
+        "text": "Teddy you’ve been promoted to my fav boy, don’t you dare let me down  #loveIsland https://t.co/JjQklfG8My",
+        "id": "1420118959999885312",
+        "dateCreated": "2021-07-27T20:28:39.000Z",
+        "author": {
+            "screenName": "micadavies_",
+            "protected": false,
+            "verified": false,
+            "name": "mica"
+        },
+        "gifAltText": {
+            "hasAltText": true,
+            "altText": "I Want You Point GIF by Showtime"
+        }
+    }
+}

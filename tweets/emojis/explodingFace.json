@@ -1,0 +1,29 @@
+{
+    "label": "Tweet with the exploding face emoji",
+    "tweet": {
+        "text": "NEAL + DEREK 🤯🤯🤯🤯🤯 https://t.co/Khob7vnyEz",
+        "id": "1420109683629641731",
+        "dateCreated": "2021-07-27T19:51:47.000Z",
+        "author": {
+            "screenName": "SarahSpain",
+            "protected": false,
+            "verified": true,
+            "name": "Sarah Spain"
+        },
+        "quotedTweet": {
+            "available": true,
+            "tweet": {
+                "text": "New York City:\n\nOn Aug. 25th, I'm starting a new show at the Cherry Lane Theater for a limited run.\n\nIt's called, \"Unacceptable.\"\n\nStand-up w/ personal, emotional stuff.\n\nDirected by my friend Derek Delgaudio (In and Of Itself) \n\nTickets now on sale. \n\nhttps://t.co/EDsjo50Gnx",
+                "id": "1420021155755343877",
+                "dateCreated": "2021-07-27T14:00:00.000Z",
+                "author": {
+                    "screenName": "nealbrennan",
+                    "protected": false,
+                    "verified": true,
+                    "name": "Neal Brennan"
+                },
+                "hasPoll": false
+            }
+        }
+    }
+}
