@@ -25,7 +25,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "imageAltTexts": [ "  " ]
+      "imageAltTexts": [ {"hasAltText": false} ]
     }
   },
   {
@@ -40,7 +40,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "imageAltTexts": [ "Image alt text", "Image alt text 2" ]
+      "imageAltTexts": [ { "hasAltText": true, "altText": "Image alt text 1"} ]
     }
   },
   {
@@ -55,7 +55,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "gifAltText": false
+      "gifAltText": { "hasAltText": false }
     }
   },
   {
@@ -70,7 +70,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "gifAltText": "GIF alt text"
+      "gifAltText": { "hasAltText": true, "altText": "GIF alt text" }
     }
   },
   {
@@ -151,7 +151,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "videoAttribution": false
+      "videoAttribution": { "hasAttribution": false }
     }
   },
   {
@@ -166,7 +166,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "videoAttribution": "video attribution"
+      "videoAttribution": { "hasAttribution": true, "attribution": "Video attribution" }
     }
   },
   {
@@ -211,7 +211,7 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "quotedTweet": false
+      "quotedTweet": { "available": false }
     }
   },
   {
@@ -227,15 +227,18 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "verified": false,
-          "protected": false,
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName"
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false
+        "available": true,
+        "tweet": {
+          "author": {
+            "verified": false,
+            "protected": false,
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName"
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false
+        }
       }
     }
   },
@@ -252,16 +255,19 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "repliedTo": [ "replier1" ]
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "repliedTo": [ "replier1" ]
+        }
       }
     }
   },
@@ -278,16 +284,19 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "gifAltText": false
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "gifAltText": { "hasAltText": false }
+        }
       }
     }
   },
@@ -304,16 +313,19 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "gifAltText": "GIF alt tweet"
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "gifAltText": { "hasAltText": true, "altText": "GIF alt text"}
+        }
       }
     }
   },
@@ -330,16 +342,19 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "imageAltTexts": [ "  " ]
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "imageAltTexts": [ { "hasAltText": false } ]
+        }
       }
     }
   },
@@ -356,16 +371,48 @@
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
       "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "imageAltTexts": [ "image alt text" ]
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "imageAltTexts": [ {"hasAltText": true, "altText": "Image alt text 1" } ]
+        }
+      }
+    }
+  },
+  {
+    "label": "Quoted reply tweet with video but no attribution",
+    "tweet": {
+      "id": "12309238423902232342",
+      "author": {
+        "name": "Twitter Name",
+        "screenName": "TwitterScreenName",
+        "verified": false,
+        "protected": false
+      },
+      "dateCreated": "2021-06-07T01:10:35.000Z",
+      "text": "Basic tweet sample text",
+      "quotedTweet": {
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "videoAttribution": { "hasAttribution": false }
+        }
       }
     }
   },
@@ -391,33 +438,7 @@
         "dateCreated": "2021-06-06T11:05:31.000Z",
         "text": "Original text",
         "hasPoll": false,
-        "videoAttribution": false
-      }
-    }
-  },
-  {
-    "label": "Quoted reply tweet with video but no attribution",
-    "tweet": {
-      "id": "12309238423902232342",
-      "author": {
-        "name": "Twitter Name",
-        "screenName": "TwitterScreenName",
-        "verified": false,
-        "protected": false
-      },
-      "dateCreated": "2021-06-07T01:10:35.000Z",
-      "text": "Basic tweet sample text",
-      "quotedTweet": {
-        "author": {
-          "name": "Original Twitter Name",
-          "screenName": "OriginalTwitterName",
-          "verified": false,
-          "protected": false
-        },
-        "dateCreated": "2021-06-06T11:05:31.000Z",
-        "text": "Original text",
-        "hasPoll": false,
-        "videoAttribution": "Original video maker"
+        "videoAttribution": { "hasAttribution": true, "attribution":"Video attribution"}
       }
     }
   }
