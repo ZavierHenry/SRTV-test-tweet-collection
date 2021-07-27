@@ -11,6 +11,6 @@
       "protected": false,
       "verified": true
     },
-    "videoAttribution": "chià"
+    "videoAttribution": { "hasAttribution": true, "attribution": "chià"}
   }
 }

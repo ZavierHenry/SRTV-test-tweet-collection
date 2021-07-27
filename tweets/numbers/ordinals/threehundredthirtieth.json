@@ -10,6 +10,6 @@
             "screenName": "SpringFredYT",
             "name": "SpringFreddyYT"
         },
-        "videoAttribution": false
+        "videoAttribution": {"hasAttribution": false}
     }
 }

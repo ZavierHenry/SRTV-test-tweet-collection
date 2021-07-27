@@ -10,6 +10,6 @@
       "verified": false,
       "screenName": "geauxtcam"
     },
-    "videoAttribution": "Josiah Johnson"
+    "videoAttribution": {"attribution": "Josiah Johnson", "hasAttribution": true}
   }
 }
