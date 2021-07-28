@@ -1,0 +1,15 @@
+{
+    "label": "Tweet containing the time 13:00",
+    "tweet": {
+        "id": "1408046405395095563",
+        "dateCreated": "2021-06-24T12:56:37.000Z",
+        "text": "Breakfast at 13:00 hours😋 https://t.co/ixhLTjJJZL",
+        "author": {
+            "protected": false,
+            "screenName": "Lloydie_D",
+            "verified": false,
+            "name": "Devon🇯🇲"
+        },
+        "imageAltTexts": [ { "hasAltText": false} ]
+    }
+}
