@@ -24,6 +24,7 @@ numbers/romanNumeral13.json
 numbers/times/1800hours.json
 numbers/times/1300hours.json
 numbers/phoneNumberDots.json
+numbers/13000.json
 numbers/ordinals/third.json
 numbers/ordinals/zeroth.json
 numbers/ordinals/1769th.json
