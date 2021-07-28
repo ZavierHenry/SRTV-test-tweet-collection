@@ -19,7 +19,10 @@ numbers/height.json
 numbers/ranges/threeToFour.json
 numbers/ranges/74to67.json
 numbers/ranges/yearRanges.json
+numbers/currency/seventeenThirtyFiveDollars.json
 numbers/romanNumeral13.json
+numbers/times/1800hours.json
+numbers/times/1300hours.json
 numbers/phoneNumberDots.json
 numbers/ordinals/third.json
 numbers/ordinals/zeroth.json
