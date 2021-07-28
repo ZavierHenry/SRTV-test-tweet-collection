@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with the dollar amount $17.35",
+    "tweet": {
+        "id": "1385014398155051010",
+        "text": "$SKLZ new highs in after hours trading $17.35",
+        "dateCreated": "2021-04-21T23:35:39.000Z",
+        "author": {
+            "name": "Cam Capital",
+            "screenName": "Cam_Talks_Stock",
+            "verified": false,
+            "protected": false 
+        }
+    }
+}
