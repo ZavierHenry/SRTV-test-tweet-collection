@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with the number 13000 (no comma)",
+    "tweet": {
+        "id": "1417583266887094273",
+        "dateCreated": "2021-07-20T20:32:42.000Z",
+        "text": "Waiting in a que for 12 hours with 13000 people infront of me for a theory test for when of course it gets to my turn for there to be absolutely 0 left in the uk 🥲",
+        "author": {
+            "protected": false,
+            "screenName": "JennaElliot4",
+            "verified": false,
+            "name": "Jenna Elliot"
+        }
+    }
+}
