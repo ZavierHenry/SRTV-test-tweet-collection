@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the time 8:50 AM",
+    "tweet": {
+        "dateCreated": "2021-07-27T12:50:02.000Z",
+        "id": "1420003548436307970",
+        "text": "Easthampton, MA Weather @ 08:50 AM, Temp 69.5°F, Hum 89pct, Baro 28.674 in., Wind 0.0 mph, from N https://t.co/zUEWq0pDtR",
+        "author": {
+            "verified": false,
+            "name": "Dave",
+            "screenName": "EHWeather",
+            "protected": false
+        },
+        "imageAltTexts": [ {"hasAltText": false} ]
+    }
+}
