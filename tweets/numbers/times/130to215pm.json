@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the times 1:30pm and 2:15pm",
+    "tweet": {
+        "author": {
+            "name": "Tyler Leavitt",
+            "screenName": "tslclick",
+            "verified": false,
+            "protected": false
+        },
+        "id": "1418381507199078400",
+        "text": "Microburst over Anthem Time lapse, Shot from River Mountains looking back west towards Anthem and Black Mountain. Video is from around 1:30pm to 2:15pm @TeddFlorendo @8NewsNow https://t.co/ysrMKeoBOg",
+        "dateCreated": "2021-07-23T01:24:38.000Z",
+        "videoAttribution": { "hasAttribution": false}
+    }
+}
