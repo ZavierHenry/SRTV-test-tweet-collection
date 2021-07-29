@@ -21,7 +21,9 @@ numbers/ranges/74to67.json
 numbers/ranges/yearRanges.json
 numbers/currency/seventeenThirtyFiveDollars.json
 numbers/romanNumeral13.json
+numbers/times/130to215pm.json
 numbers/times/1800hours.json
+numbers/times/850am.json
 numbers/times/1300hours.json
 numbers/phoneNumberDots.json
 numbers/13000.json
