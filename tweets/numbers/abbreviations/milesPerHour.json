@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with the abbreviation for miles per hour",
+    "tweet": {
+        "dateCreated": "2021-07-28T17:34:47.000Z",
+        "id": "1420437592089133057",
+        "text": "Trade rumors going 110 mph today",
+        "author": {
+            "verified": false,
+            "protected": false,
+            "name": "Bruce",
+            "screenName": "ThatFuncyMuncy1"
+        }
+    }
+}

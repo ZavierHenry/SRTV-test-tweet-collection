@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the roman numeral XIX or 19",
+    "tweet": {
+        "text": "ㅤ\nThe Simpsons - Season 20 Ep. 04 - Treehouse of Horror XIX https://t.co/fxrewb060A",
+        "dateCreated": "2021-07-31T06:14:22.000Z",
+        "id": "1421353525309841410",
+        "author": {
+            "name": "Simpsons Random Bot",
+            "screenName": "SRandomBot",
+            "verified": false,
+            "protected": false
+        },
+        "imageAltTexts": [{"hasAltText": false}]
+    }
+}

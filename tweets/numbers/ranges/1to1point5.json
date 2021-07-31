@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the range 1-1.5 in it",
+    "tweet": {
+        "dateCreated": "2021-07-29T05:18:01.000Z",
+        "id": "1420614569949597697",
+        "text": "FIRST ALERT WEATHER DAY- STORMS MARCHING SOUTH: While the line of storms did expand further west, the eastern edge of it has severe threats with it in Wisconsin. These will continue moving south getting into parts of the Stateline over the 1-1.5 hours. Stay tuned for the latest. https://t.co/cgMKnr1nMZ",
+        "author": {
+            "verified": true,
+            "protected": false,
+            "screenName": "EthanRosuckWX",
+            "name": "Ethan Rosuck"
+        },
+        "imageAltTexts": [{"hasAltText": false}]
+    }
+}
