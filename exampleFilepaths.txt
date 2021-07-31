@@ -27,6 +27,7 @@ emojis/seeNoEvilMonkey.json
 emojis/magnifyingGlass.json
 emojis/downcastFaceWithSweat.json
 emojis/huggingFace.json
+emojis/tiredFace.json
 emojis/cow.json
 emojis/fire.json
 emojis/rollingOnTheFloorLaughing.json
