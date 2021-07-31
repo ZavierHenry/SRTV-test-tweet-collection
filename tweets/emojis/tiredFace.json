@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with a tired face emoji: ",
+    "tweet": {
+        "text": "Your song is playing.. 😫😫😫 https://t.co/6zVY2ofBGL",
+        "id": "1421534307705819136",
+        "dateCreated": "2021-07-31T18:12:44.000Z",
+        "author": {
+            "protected": false,
+            "name": "el HEALTHY Pew",
+            "screenName": "AZeepew",
+            "verified": false
+        },
+        "videoAttribution": {"hasAttribution": false}
+    }
+}
