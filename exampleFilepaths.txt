@@ -17,10 +17,10 @@ sevenReplyingTo.json
 retweet.json
 emojis/loudlyCryingWithSkull.json
 emojis/grimacingFace.json
-emojis/explodingFace.json
 emojis/worriedFace.json
 emojis/pleadingFace.json
 emojis/starstruckRocket.json
+emojis/explodingHead.json
 emojis/faceScreamingInFear.json
 emojis/smilies.json
 emojis/seeNoEvilMonkey.json
