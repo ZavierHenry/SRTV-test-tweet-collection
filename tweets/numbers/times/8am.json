@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with the time 8 am",
+    "tweet": {
+        "id": "1421460328815251456",
+        "dateCreated": "2021-07-31T13:18:46.000Z",
+        "text": "I am scheduled to be on GOOD MORNING AMERICA (8 AM hour) and THE VIEW on Tuesday. If you're interested. You can check out my home haircut, which my daughter did. Kind of sticky-uppy, but not too shabby.",
+        "author": {
+            "screenName": "StephenKing",
+            "name": "Stephen King",
+            "protected": false,
+            "verified": true
+        }
+    }
+}
