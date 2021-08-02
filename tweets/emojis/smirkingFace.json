@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with a smirking face emoji: 😏",
+    "tweet": {
+        "id": "1422226488565321729",
+        "dateCreated": "2021-08-02T16:03:13.000Z",
+        "text": "can i get a yass 😏 https://t.co/dHlutDnbir",
+        "author": {
+            "protected": false,
+            "name": "etoile ༄ؘ ˑ",
+            "screenName": "roseliroll",
+            "verified": false
+        },
+        "imageAltTexts": [ {"hasAltText": false}]
+    }
+}

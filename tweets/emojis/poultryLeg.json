@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with a poultry leg emoji: 🍗",
+    "tweet": {
+        "id": "1422200749707104263",
+        "text": "How spicy is thy chicken 🍗? https://t.co/gvjRuk1T3P",
+        "dateCreated": "2021-08-02T14:20:56.000Z",
+        "author": {
+            "name": "mrkitchengh",
+            "protected": false,
+            "screenName": "mrkitchengh",
+            "verified": false
+        },
+        "imageAltTexts": [ {"hasAltText": false}]
+    }
+}
