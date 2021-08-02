@@ -18,9 +18,11 @@ retweet.json
 emojis/loudlyCryingWithSkull.json
 emojis/grimacingFace.json
 emojis/worriedFace.json
+emojis/smirkingFace.json
 emojis/pleadingFace.json
 emojis/starstruckRocket.json
 emojis/explodingHead.json
+emojis/neutralFace.json
 emojis/faceScreamingInFear.json
 emojis/smilies.json
 emojis/seeNoEvilMonkey.json
@@ -28,6 +30,8 @@ emojis/magnifyingGlass.json
 emojis/downcastFaceWithSweat.json
 emojis/huggingFace.json
 emojis/tiredFace.json
+emojis/poultryLeg.json
+emojis/grinningFaceWIthSmilingEyes.json
 emojis/cow.json
 emojis/fire.json
 emojis/rollingOnTheFloorLaughing.json
