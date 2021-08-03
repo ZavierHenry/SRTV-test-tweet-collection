@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the dollar amount $17.35",
+    "replacements": [{"oldText": "$17.35", "newText": "seventeen dollars and thirty five cents"}],
     "tweet": {
         "id": "1385014398155051010",
         "text": "$SKLZ new highs in after hours trading $17.35",

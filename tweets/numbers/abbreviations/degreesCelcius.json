@@ -1,5 +1,10 @@
 ﻿{
   "label": "Tweets with different temperatures",
+  "replacements": [
+    {"oldText": "-55°C", "newText": "minus fifty five degrees Celcius"},
+    {"oldText": "70°C", "newText": "seventy degrees degrees Celcius"},
+    {"oldText": "+125°C", "newText": "one hundred twenty five degrees Celcius"}
+  ],
   "tweet": {
     "id": "1416836022449565697",
     "dateCreated": "2021-07-18T19:03:25.000Z",

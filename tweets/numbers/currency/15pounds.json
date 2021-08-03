@@ -1,5 +1,6 @@
 {
     "label": "Tweet that has the British pound symbol £",
+    "replacements": [{"oldText": "£15", "newText": "fifteen pounds"}],
     "tweet": {
         "dateCreated": "2021-07-29T10:59:02.000Z",
         "id": "1420700387376500741",
