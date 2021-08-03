@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the face screaming in fear emoji: 😱",
+  "replacements": [{"oldText": "😱", "newText": "face screaming in fear"}],
   "tweet": {
     "author": {
       "name": "Jason",

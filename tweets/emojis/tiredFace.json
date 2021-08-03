@@ -1,5 +1,6 @@
 {
     "label": "Tweet with a tired face emoji: 😫",
+    "replacements": [{"oldText": "😫", "newText": "tired face"}],
     "tweet": {
         "text": "Your song is playing.. 😫😫😫 https://t.co/6zVY2ofBGL",
         "id": "1421534307705819136",

@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with see no evil monkey emoji: 🙈",
+  "replacements": [{"oldText": "🙈", "newText": "see no evil monkey"}],
   "tweet": {
     "id": "1415833013821267969",
     "dateCreated": "2021-07-16T00:37:50.000Z",

@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the grimacing face emoji: 😬",
+  "replacements": [{"oldText": "😬", "newText": "grimacing face"}],
   "tweet": {
     "text": "dropped my saliva off for covid testing - won’t have to do that again for a few days - and visited the convenience store here at the MPC. bought what I’m hoping is a churro-type pastry, dried mango, a cup of ice and more coffee 😬",
     "id": "1418392690123689984",

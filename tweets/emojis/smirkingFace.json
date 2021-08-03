@@ -1,5 +1,6 @@
 {
     "label": "Tweet with a smirking face emoji: 😏",
+    "replacements": [{"oldText": "😏", "newText": "smirking face"}],
     "tweet": {
         "id": "1422226488565321729",
         "dateCreated": "2021-08-02T16:03:13.000Z",

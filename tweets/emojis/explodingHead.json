@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the exploding head emoji: 🤯",
+    "replacements": [ {"oldText": "🤯", "newText": "exploding head"}],
     "tweet": {
         "text": "NEAL + DEREK 🤯🤯🤯🤯🤯 https://t.co/Khob7vnyEz",
         "id": "1420109683629641731",

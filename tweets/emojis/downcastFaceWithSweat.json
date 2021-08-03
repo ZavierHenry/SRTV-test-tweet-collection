@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the downcast face with sweat emoji: 😓",
+    "replacements": [ {"oldText": "😓", "newText": "downcast face with sweat"} ],
     "tweet": {
         "text": "Londoners complaining about the heat and begging for rain, now your house is in bikini bottom😓",
         "id": "1419363238698012673",

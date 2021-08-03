@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the magnifying glass emoji: 🔍",
+    "replacements": [{"oldText": "🔍", "newText": "magnifying glass"}],
     "tweet": {
         "id": "1421244620579557381",
         "text": "i think i’m shadow-banned! no one likes anything i say or do online 🔍",
