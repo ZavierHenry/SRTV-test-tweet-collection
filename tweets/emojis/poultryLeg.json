@@ -1,5 +1,6 @@
 {
     "label": "Tweet with a poultry leg emoji: 🍗",
+    "replacements": [{"oldText": "🍗", "newText": "poultry leg"}],
     "tweet": {
         "id": "1422200749707104263",
         "text": "How spicy is thy chicken 🍗? https://t.co/gvjRuk1T3P",

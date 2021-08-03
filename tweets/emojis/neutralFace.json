@@ -1,5 +1,6 @@
 {
     "label": "Tweet with a neutral face emoji: 😐",
+    "replacements": [{"oldText": "😐", "newText": "neutral face"}],
     "tweet": {
         "id": "1422214186327756805",
         "text": "they got me again……😐 https://t.co/ygmRrUb9ao",

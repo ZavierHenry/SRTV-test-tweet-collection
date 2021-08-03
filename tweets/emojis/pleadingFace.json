@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with a pleading face emoji: 🥺",
+  "replacements": [{"oldText": "🥺", "newText": "pleading face"}],
   "tweet": {
     "dateCreated": "2021-07-25T04:30:28.000Z",
     "text": "10k on my pinned , lets go 🥺💞",

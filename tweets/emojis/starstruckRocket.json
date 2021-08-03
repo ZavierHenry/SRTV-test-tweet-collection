@@ -1,5 +1,9 @@
 ﻿{
   "label": "Tweet with a star struck emoji: 🤩 and a rocket emoji: 🚀",
+  "replacements": [
+    {"oldText": "🤩", "newText": "star struck"},
+    {"oldText": "🚀", "newText": "rocket"}
+  ],
   "tweet": {
     "id": "1418420605490286592",
     "text": "Going to onboard 7 more scholars 🤩🚀",

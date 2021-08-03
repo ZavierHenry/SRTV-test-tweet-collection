@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the cow emoji: 🐄",
+    "replacements": [ {"oldText": "🐄", "newText": "cow"} ],
     "tweet": {
         "text": "@paul_edwin I had similar yesterday 🐄🐄🐄🐄 https://t.co/zDlBQX7gSD",
         "id": "1419346981953101830",

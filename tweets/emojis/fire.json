@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the fire emoji: 🔥",
+  "replacements": [{"oldText": "🔥", "newText": "fire"}],
   "tweet": {
     "id": "1411834307727880193",
     "author": {
