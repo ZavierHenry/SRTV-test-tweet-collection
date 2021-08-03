@@ -39,6 +39,26 @@
       "type": "string",
       "description": "Label to describe test tweet"
     },
+    "replacements": {
+      "type": "array",
+      "description": "Replacements in text for testing purposes",
+      "items": {
+        "type": "object",
+        "properties": {
+          "oldText": {
+            "type": "string",
+            "description": "Old text to be replaced",
+            "minLength": 1
+          },
+          "newText": {
+            "type": "string",
+            "description": "New text to replace old text",
+            "minLength": 1
+          }
+        },
+        "required": [ "oldText", "newText" ]
+      }
+    },
     "tweet": {
       "type": "object",
       "properties": {
