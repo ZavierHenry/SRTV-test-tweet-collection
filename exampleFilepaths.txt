@@ -26,12 +26,14 @@ emojis/neutralFace.json
 emojis/faceScreamingInFear.json
 emojis/smilies.json
 emojis/seeNoEvilMonkey.json
+emojis/sneezingFace.json
 emojis/magnifyingGlass.json
 emojis/downcastFaceWithSweat.json
 emojis/huggingFace.json
 emojis/tiredFace.json
 emojis/poultryLeg.json
 emojis/grinningFaceWIthSmilingEyes.json
+emojis/olderAdult.json
 emojis/cow.json
 emojis/fire.json
 emojis/rollingOnTheFloorLaughing.json
@@ -52,7 +54,9 @@ numbers/ranges/yearRanges.json
 numbers/ranges/1to1point5.json
 numbers/ranges/74to67.json
 numbers/13000.json
-numbers/currency/seventeenThirtyFiveDollars.json
+numbers/currency/15dollars.json
+numbers/currency/15pounds.json
+numbers/currency/17dollars35cents.json
 numbers/year.json
 numbers/phoneNumberDots.json
 numbers/dates/jan6.json
