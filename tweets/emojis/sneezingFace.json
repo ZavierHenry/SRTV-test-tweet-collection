@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the sneezing face emoji: 🤧",
+    "tweet": {
+        "dateCreated": "2021-08-02T22:13:37.000Z",
+        "id": "1422319705273024516",
+        "text": "I'm sick 🤧 ☹️ https://t.co/9B7w84L9Km",
+        "author": {
+            "name": "Rougerv2",
+            "verified": false,
+            "screenName": "Rougerv21",
+            "protected": false
+        },
+        "imageAltTexts": [ {"hasAltText": false} ]
+    }
+}

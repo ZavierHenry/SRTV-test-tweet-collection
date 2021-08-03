@@ -1,0 +1,14 @@
+{
+    "label": "Tweet with the dollar amount $15",
+    "tweet": {
+        "dateCreated": "2021-07-31T17:27:33.000Z",
+        "id": "1421522938000457729",
+        "text": "Following the logic I keep seeing on the subject of a $15 minimum wage, if we lower the pay of McDonald's CEO to $15 an hour then hamburgers will be free!",
+        "author": {
+            "verified": false,
+            "protected": false,
+            "name": "TK-Squared, LLC 🧢",
+            "screenName": "TKSquaredLLC"
+        }
+    }
+}

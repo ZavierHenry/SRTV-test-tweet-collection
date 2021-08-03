@@ -1,0 +1,14 @@
+{
+    "label": "Tweet that has the British pound symbol £",
+    "tweet": {
+        "dateCreated": "2021-07-29T10:59:02.000Z",
+        "id": "1420700387376500741",
+        "text": "£15 an hour is the demand for a living wage. Nothing less. Working-class people deserve better. We deserve more than just “scraping by.” There’s more to life than this.",
+        "author": {
+            "name": "Hasan Patel 🌹",
+            "verified": false,
+            "screenName": "CorbynistaTeen",
+            "protected": false
+        }
+    }
+}
