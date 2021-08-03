@@ -1,5 +1,6 @@
 {
     "label": "Tweet containing date in the format mm/dd/yyyy (e.g. 06/30/2021)",
+    "replacements": [{"oldText": "06/30/2021", "newText": "June thirtieth twenty twenty one"}],
     "tweet": {
         "text": "We are working on our 06/30/2021 financials, will have some big $$$ changes. $AAPJ",
         "dateCreated": "2021-07-22T17:46:43.000Z",
