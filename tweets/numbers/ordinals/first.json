@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the ordinal number 1st",
+  "replacements": [{"oldText": "1st", "newText": "first"}],
   "tweet": {
     "author": {
       "protected": false,

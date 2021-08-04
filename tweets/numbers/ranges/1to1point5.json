@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the range 1-1.5 in it",
+    "replacements": [{"oldText": "1-1.5", "newText": "one to one point five"}],
     "tweet": {
         "dateCreated": "2021-07-29T05:18:01.000Z",
         "id": "1420614569949597697",

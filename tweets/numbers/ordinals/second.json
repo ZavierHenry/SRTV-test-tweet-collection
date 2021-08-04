@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet that has the ordinal number 2nd",
+  "replacements": [{"oldText": "2nd", "newText": "second"}],
   "tweet": {
     "id": "1415540357492740097",
     "text": "2nd dose of Pfizer vaccine done💪🏻",

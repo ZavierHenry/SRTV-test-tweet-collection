@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the 0th ordinal number",
+  "replacements": [{"oldText": "0th", "newText": "zeroth"}],
   "tweet": {
     "text": "This is a really cool computation, but I have no idea how to interpret that 0th piece of the homology for 𝔾ₘ https://t.co/MGu3yViVXT",
     "dateCreated": "2021-07-18T01:59:13.000Z",

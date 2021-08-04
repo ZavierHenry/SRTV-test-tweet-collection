@@ -1,5 +1,6 @@
 {
     "label": "Tweet containing the ordinal 330th",
+    "replacements": [{"oldText": "330th", "newText": "three hundred thirtieth"}],
     "tweet": {
         "text": "330th Win! I got this one of roll off lol https://t.co/JMPD3G1SQ2",
         "id": "1416580674685911046",
