@@ -1,5 +1,6 @@
 {
     "label": "Tweet containing the Roman numberal 60 (LX)",
+    "replacements": [{"oldText": "LX", "newText": "sixty"}],
     "tweet": {
         "text": "Jordan Love: Super Bowl LX MVP",
         "dateCreated": "2020-04-24T04:15:07.000Z",

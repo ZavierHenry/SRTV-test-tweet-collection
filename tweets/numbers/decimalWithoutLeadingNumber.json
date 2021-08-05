@@ -1,5 +1,6 @@
 {
     "label": "Tweet with a decimal number where there is no number before the decimal",
+    "replacements": [{"oldText": ".083", "newText": "point zero eight three"}],
     "tweet": {
         "id": "1419129786602037250",
         "text": "Brent Rooker's .083 season batting average is the worst in the expansion era (1961-) by any batter (min. 20 AB) who broke up a no-hit bid in the 9th inning.\n\nH/T @EliasSports https://t.co/luv0zvPp1c",

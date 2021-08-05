@@ -1,5 +1,10 @@
 ﻿{
   "label": "Tweet with a decimal percentage",
+  "replacements": [
+    {"oldText": "58.41", "newText": "fifty eight point four one"},
+    {"oldText": "67.94", "newText": "sixty seven point nine four"},
+    {"oldText": "85.44", "newText": "eighty five point four four"}
+  ],
   "tweet": {
     "id": "1413207562443493384",
     "author": {

@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with a negative number",
+  "replacements": [{"oldText": "-1", "newText": "minus one"}],
   "tweet": {
     "id": "1098611637760806913",
     "author": {

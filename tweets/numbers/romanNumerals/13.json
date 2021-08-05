@@ -1,5 +1,6 @@
 {
     "label": "Tweet containing the Roman numeral XIII or 13",
+    "replacements": [{"oldText": "XIII", "newText": "thirteen"}],
     "tweet": {
         "text": "iPhone 13 better be stylized “iPhone XIII” otherwise what was the point",
         "dateCreated": "2021-07-24T19:44:30.000Z",

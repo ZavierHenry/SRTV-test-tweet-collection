@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with heights (no inches tick)",
+  "replacements": [{"oldText": "6'10", "newText": "six foot ten"}],
   "tweet": {
     "id": "1415471345664671746",
     "dateCreated": "2021-07-15T00:40:41.000Z",
