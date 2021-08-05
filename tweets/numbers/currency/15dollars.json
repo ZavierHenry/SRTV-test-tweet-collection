@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the dollar amount $15",
+    "replacements": [{"oldText": "$15", "newText": "fifteen dollars"}],
     "tweet": {
         "dateCreated": "2021-07-31T17:27:33.000Z",
         "id": "1421522938000457729",

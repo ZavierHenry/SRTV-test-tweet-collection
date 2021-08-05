@@ -1,5 +1,11 @@
 ﻿{
   "label": "Tweet with math operators such as \"^\" and \"=\"",
+  "replacements": [
+    {"oldText": "x^2", "newText": "x caret two"},
+    {"oldText": "y^2", "newText": "y caret two"},
+    {"oldText": "z^3", "newText": "z caret three"},
+    {"oldText": "x = y", "newText": "x equals y"}
+  ],
   "tweet": {
     "id": "1414044025074638849",
     "dateCreated": "2021-07-11T02:09:01.000Z",

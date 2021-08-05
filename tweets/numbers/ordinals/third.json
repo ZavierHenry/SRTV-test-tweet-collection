@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the ordinal third in it",
+  "replacements": [{"oldText": "3rd", "newText": "third"}],
   "tweet": {
     "dateCreated": "2021-07-23T02:56:56.000Z",
     "id": "1418404736445857796",

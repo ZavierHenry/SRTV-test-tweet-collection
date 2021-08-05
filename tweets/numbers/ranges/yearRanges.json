@@ -1,5 +1,9 @@
 {
     "label": "Tweet with year ranges in them",
+    "replacements": [
+        {"oldText": "2009-10", "newText": "two thousand nine to ten"},
+        {"oldText": "1978-81", "newText": "nineteen seventy eight to eighty one"}
+    ],
     "tweet": {
         "id": "1340658215667830784",
         "text": "Derrick Henry enters today's game with 1,532 yards and 14 TD on 297 rushes.\n\nHenry is set to become the 4th player in Oilers/Titans franchise history with 300 rushes in back-to-back seasons, joining Chris Johnson (2009-10), Eddie George (1996-03) and Earl Campbell (1978-81). https://t.co/yChoWJoqjh",

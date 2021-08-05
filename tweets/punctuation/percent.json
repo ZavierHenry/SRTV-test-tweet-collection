@@ -1,5 +1,14 @@
 ﻿{
   "label": "Tweet containing the percent symbol",
+  "replacements": [
+    {"oldText": "12.3%", "newText": "twelve point three percent"},
+    {"oldText": "11.4%", "newText": "eleven point four percent"},
+    {"oldText": "11.6%", "newText": "eleven point six percent"},
+    {"oldText": "10.6%", "newText": "ten point six percent"},
+    {"oldText": "9.3%", "newText": "nine point three percent"},
+    {"oldText": "8.2%", "newText": "eight point two percent"},
+    {"oldText": "6.8%", "newText": "six point eight percent"}
+  ],
   "tweet": {
     "id": "1410034793283264521",
     "author": {

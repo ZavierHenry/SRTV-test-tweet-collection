@@ -1,5 +1,9 @@
 {
     "label": "Tweet with the number 13000 (no comma)",
+    "replacements": [
+        {"oldText": "12", "newText": "twelve"},
+        {"oldText": "13000", "newText": "thirteen thousand"}
+    ],
     "tweet": {
         "id": "1417583266887094273",
         "dateCreated": "2021-07-20T20:32:42.000Z",

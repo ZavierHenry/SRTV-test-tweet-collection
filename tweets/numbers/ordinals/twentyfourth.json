@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the ordinal 24th",
+  "replacements": [{"oldText": "24th", "newText": "twenty fourth"}],
   "tweet": {
     "dateCreated": "2021-07-24T16:02:00.000Z",
     "id": "1418964692010246144",

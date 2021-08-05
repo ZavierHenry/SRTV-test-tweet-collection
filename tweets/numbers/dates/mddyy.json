@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with a date in the format m/dd/yy (e.g. 5/17/21)",
+  "replacements": [{"oldText": "5/17/21", "newText": "May seventeenth twenty twenty one"}],
   "tweet": {
     "id": "1413206675218214923",
     "dateCreated": "2021-07-08T18:41:42.000Z",

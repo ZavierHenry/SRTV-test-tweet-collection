@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with centimeters (plural) label",
+  "replacements": [{"oldText": "5 cm", "newText": "five centimeters"}],
   "tweet": {
     "dateCreated": "2021-07-18T04:28:23.000Z",
     "text": "Man I just need another 5 cm per second",

@@ -1,5 +1,6 @@
 {
     "label": "Tweet with a whole number range in it",
+    "replacements": [{"oldText": "3-4", "newText": "three to four"}],
     "tweet": {
         "id": "1417919452033675265",
         "text": "XSS is everywhere, getting xss on 3-4 years old program is super cool :)",

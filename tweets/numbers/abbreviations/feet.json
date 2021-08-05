@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the ft measurement abbreviation (plural)",
+  "replacements": [ {"oldText": "6 ft", "newText": "six feet"}],
   "tweet": {
     "text": "yeah he may be 6 ft tall and rich but I have an electric tea kettle in my room",
     "dateCreated": "2021-07-20T03:33:32.000Z",

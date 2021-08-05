@@ -1,5 +1,9 @@
 ﻿{
   "label": "Tweet with a number that has a comma",
+  "replacements": [
+    {"oldText": "200", "newText": "two hundred"},
+    {"oldText": "1,100", "newText": "one thousand one hundred"}
+  ],
   "tweet": {
     "id": "1415818088461869062",
     "dateCreated": "2021-07-15T23:38:31.000Z",

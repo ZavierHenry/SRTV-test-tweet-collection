@@ -1,5 +1,6 @@
 ﻿{
   "label": "TWeet that contains an underscore",
+  "replacements": [{"oldText": "bomani_jones", "newText": "bomani underscore jones"}],
   "tweet": {
     "id": "11424409209",
     "author": {

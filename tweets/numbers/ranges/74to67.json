@@ -1,5 +1,9 @@
 {
     "label": "Tweet containing the range 74-67",
+    "replacements": [
+        {"oldText": "74-67", "newText": "seventy four to sixty seven"},
+        {"oldText": "16-2", "newText": "sixteen to 2"}
+    ],
     "tweet": {
         "id": "1419328934559289344",
         "dateCreated": "2021-07-25T16:09:22.000Z",
