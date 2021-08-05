@@ -1,6 +1,6 @@
 {
     "label": "Tweet with the pacific time abbreviation",
-    "replacements": [{"oldText": "7 am PT", "newText": "seven a m pacific time"}],
+    "replacements": [{"oldText": "7am PT", "newText": "seven a m pacific time"}],
     "tweet": {
         "dateCreated": "2021-08-03T21:01:53.000Z",
         "text": "Place In Me. Thursday 7am PT. https://t.co/BbnOtzV2Um",
