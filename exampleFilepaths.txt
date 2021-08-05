@@ -72,6 +72,7 @@ numbers/abbreviations/degreesCelcius.json
 numbers/abbreviations/milesPerHour.json
 numbers/times/130to215pm.json
 numbers/times/1800hours.json
+numbers/times/pacificTime.json
 numbers/times/850am.json
 numbers/times/1300hours.json
 numbers/times/8am.json
