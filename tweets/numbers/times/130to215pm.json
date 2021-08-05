@@ -1,5 +1,6 @@
 {
     "label": "Tweet with the times 1:30pm and 2:15pm",
+    "replacements": [{"oldText": "1:30pm to 2:15pm", "newText": "one thirty p m to two fifteen p m"}],
     "tweet": {
         "author": {
             "name": "Tyler Leavitt",

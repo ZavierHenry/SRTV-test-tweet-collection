@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with a hashtag in it",
+  "replacements": [{"oldText": "#TurkeyLegHut", "newText": "hashtag TurkeyLegHut"}],
   "tweet": {
     "id": "1411838289812901888",
     "author": {

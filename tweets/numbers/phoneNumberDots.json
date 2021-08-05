@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with the phone number separated by periods",
+  "replacements": [{"oldText": "888.633.8380 ", "newText": "eight eight eight. six three three. eight three eight zero."}],
   "tweet": {
     "id": "1415332765101346819",
     "dateCreated": "2021-07-14T15:30:01.000Z",

@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with an @ symbol that is not at the beginning",
+  "replacements": [{"oldText": "@MLBNetwork", "newText": "at MLBNetwork"}],
   "tweet": {
     "id": "1415114300167839750",
     "dateCreated": "2021-07-14T01:01:55.000Z",

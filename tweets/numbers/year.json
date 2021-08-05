@@ -1,5 +1,6 @@
 ﻿{
   "label": "Tweet with a year in it",
+  "replacements": [{"oldText": "2008", "newText": "two thousand eight"}],
   "tweet": {
     "author": {
       "name": "Rodger Sherman",
