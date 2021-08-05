@@ -1,6 +1,6 @@
 {
     "label": "Tweet with the time 8:50 AM",
-    "replacements": [{"oldText": "08:50 AM", "newText": "eight fifty A M"}],
+    "replacements": [{"oldText": "08:50 AM", "newText": "eight fifty a m"}],
     "tweet": {
         "dateCreated": "2021-07-27T12:50:02.000Z",
         "id": "1420003548436307970",
