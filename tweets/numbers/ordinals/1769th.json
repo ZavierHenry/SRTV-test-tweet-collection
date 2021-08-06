@@ -1,7 +1,7 @@
 {
     "label": "Tweet with the ordinal 1,769th (including with a comma)",
     "replacements": [
-        {"oldText": "1,769th", "newText": "one thousand seven hundred sixty ninth"},
+        {"oldText": "1,769th", "newText": "one thousand seven hundred and sixty ninth"},
         {"oldText": "20th", "newText": "twentieth"}
     ],
     "tweet": {
