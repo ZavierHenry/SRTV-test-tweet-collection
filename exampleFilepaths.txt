@@ -66,13 +66,13 @@ numbers/phoneNumberOnePlus.json
 numbers/romanNumerals/19.json
 numbers/romanNumerals/60.json
 numbers/romanNumerals/13.json
+numbers/abbreviations/pacificTime.json
 numbers/abbreviations/feet.json
 numbers/abbreviations/centimeters.json
 numbers/abbreviations/degreesCelcius.json
 numbers/abbreviations/milesPerHour.json
 numbers/times/130to215pm.json
 numbers/times/1800hours.json
-numbers/times/pacificTime.json
 numbers/times/850am.json
 numbers/times/1300hours.json
 numbers/times/8am.json
