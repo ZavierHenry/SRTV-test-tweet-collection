@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with the abbreviation for mountain time (MT)",
+    "tweet": {
+        "imageAltTexts": [{"hasAltText": false}],
+        "id": "1423433644409032708",
+        "text": "Our 8/05 game starting at 8:05 PM MT\n\nOur Starting Lineup to open up our series in Sacramento\n\nWatch: https://t.co/eeMVUtfaEF\nListen: https://t.co/bZ7n8x842w https://t.co/VfRctp5f0r",
+        "dateCreated": "2021-08-06T00:00:01.000Z",
+        "author": {
+            "protected": false,
+            "screenName": "epchihuahuas",
+            "verified": true,
+            "name": "El Paso Chihuahuas"
+        }
+    }
+}

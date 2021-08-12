@@ -1,0 +1,16 @@
+{
+    "label": "Tweet with the abbreviation ET (Eastern Time)",
+    "replacements": [{"oldText": "7 pm ET", "newText": "seven p m eastern time"}],
+    "tweet": {
+        "text": "TONIGHT: @RepSwalwell joins @thereidout!\n\nJoin @JoyAnnReid at 7 pm ET on @MSNBC, #reiders. https://t.co/lhcKTo6tM5",
+        "id": "1425528826868731910",
+        "dateCreated": "2021-08-11T18:45:32.000Z",
+        "author": {
+            "name": "The ReidOut",
+            "verified": true,
+            "protected": false,
+            "screenName": "thereidout"
+        },
+        "imageAltTexts": [{"hasAltText": false}]
+    }
+}
