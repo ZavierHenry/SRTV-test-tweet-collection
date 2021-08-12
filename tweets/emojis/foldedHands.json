@@ -1,0 +1,16 @@
+{
+    "label": "Tweet with a folded hands emoji",
+    "replacements": [{"oldText": "🙏", "newText": "folded hands"}],
+    "tweet": {
+        "dateCreated": "2021-08-12T05:41:27.000Z",
+        "text": "@CopelandNetwork Amen 🙏",
+        "id": "1425693896730980352",
+        "author": {
+            "protected": false,
+            "screenName": "velenTrevino1",
+            "name": "velen Trevino",
+            "verified": false
+        },
+        "repliedTo": ["CopelandNetwork"]
+    }
+}

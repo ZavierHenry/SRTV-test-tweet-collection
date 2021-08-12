@@ -1,0 +1,20 @@
+{
+    "label": "Tweet with an address in it",
+    "replacements": [
+        {
+            "oldText": "1300 Pennsylvania Ave NW \nWashington, DC 20229\nUnited States",
+            "newText": "thriteen hundred Pennsylvania Ave northwest Washington, DC two zero two two nine United States"
+        }
+    ],
+    "tweet": {
+        "dateCreated": "2019-09-09T21:02:32.000Z",
+        "id": "1171167026338906112",
+        "text": "This baby hasn’t stopped crying I hope nobody kidnaps him at \n\n1300 Pennsylvania Ave NW \nWashington, DC 20229\nUnited States",
+        "author": {
+            "name": "clarissa",
+            "protected": false,
+            "verified": false,
+            "screenName": "PurooPari"
+        }
+    }
+}
