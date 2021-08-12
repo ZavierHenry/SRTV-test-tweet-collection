@@ -1,0 +1,16 @@
+{
+    "label": "Tweet with the abbreviation km/h (kilometers/hour)",
+    "replacements": [{"oldText": "km/h", "newText": "kilometers per hour"}],
+    "tweet": {
+        "text": "Lower Saskatoon speed limit to 40 km/h: city report https://t.co/1Td2183teC https://t.co/pa9sfeihAP",
+        "dateCreated": "2021-08-12T00:35:06.000Z",
+        "id": "1425616800385953793",
+        "author": {
+            "protected": false,
+            "verified": true,
+            "name": "Global National",
+            "screenName": "GlobalNational"
+        },
+        "imageAltTexts": [{"hasAltText": false}]
+    }
+}

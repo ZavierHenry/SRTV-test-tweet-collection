@@ -1,0 +1,16 @@
+{
+    "label": "TWeet with the ordinal 1000th",
+    "replacements": [{"oldText": "1000th", "newText": "one thousandth"}],
+    "tweet": {
+        "id": "1422667117128736783",
+        "dateCreated": "2021-08-03T21:14:07.000Z",
+        "text": "Mitch watching Will VS Parsnip on stream for the 1000th time https://t.co/ejpdct6pu7",
+        "author": {
+            "verified": false,
+            "protected": false,
+            "screenName": "FlipJumpKick",
+            "name": "Zaffiel"
+        },
+        "imageAltTexts": [{"hasAltText": false}]
+    }
+}
