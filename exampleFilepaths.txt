@@ -69,6 +69,7 @@ numbers/romanNumerals/19.json
 numbers/romanNumerals/60.json
 numbers/romanNumerals/13.json
 numbers/abbreviations/easternTime.json
+numbers/abbreviations/nineties.json
 numbers/abbreviations/pacificTime.json
 numbers/abbreviations/feet.json
 numbers/abbreviations/centimeters.json
