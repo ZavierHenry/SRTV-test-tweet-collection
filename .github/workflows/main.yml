@@ -9,10 +9,12 @@ on:
     branches: [ main ]
     paths: 
       - 'tweets/**/*.json'
+      - 'schema.json'
   pull_request:
     branches: [ main ]
     paths: 
       - 'tweets/**/*.json'
+      - 'schema.json'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,7 +46,7 @@ jobs:
             github-token: ${{ secrets.GITHUB_TOKEN }}
 
   validate:
-    
+
     runs-on: ubuntu-latest
 
     steps:
