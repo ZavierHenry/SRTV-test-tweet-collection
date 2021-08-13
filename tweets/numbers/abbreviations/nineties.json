@@ -1,0 +1,21 @@
+{
+    "label": "Tweet with the abbreviation for the '90s (nineties)",
+    "replacements": [{"oldText": "'90s", "newText": "nineties"}],
+    "tweet": {
+        "dateCreated": "2021-08-12T12:30:02.000Z",
+        "text": "The Voice Of Mario From The Early '90s Has Passed Away https://t.co/xxINjXlc9C #SuperMario https://t.co/D0tZ34m0mK",
+        "id": "1425796719753768963",
+        "author": {
+            "protected": false,
+            "screenName": "nintendolife",
+            "name": "Nintendo Life",
+            "verified": true
+        },
+        "urlCard": {
+            "title": "The Voice Of Mario From The Early '90s Has Passed Away",
+            "description": "Prolific actor Walker Boone sadly left us at the start of 2021",
+            "url": "https://www.nintendolife.com/news/2021/08/the_voice_of_mario_from_the_early_90s_has_passed_away"
+        },
+        "imageAltTexts": [{"hasAltText": false}]
+    }
+}
