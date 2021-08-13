@@ -1,6 +1,6 @@
 {
     "label": "Tweet with the abbreviation for the '90s (nineties)",
-    "replacements": [{"oldText": "'90s"}],
+    "replacements": [{"oldText": "'90s", "newText": "nineties"}],
     "tweet": {
         "dateCreated": "2021-08-12T12:30:02.000Z",
         "text": "The Voice Of Mario From The Early '90s Has Passed Away https://t.co/xxINjXlc9C #SuperMario https://t.co/D0tZ34m0mK",
