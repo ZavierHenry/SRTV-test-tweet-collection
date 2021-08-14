@@ -11,9 +11,13 @@ Example tweets should reside in the _tweets_ directory and generally follow the 
 
 Example tweets should follow the schema in [schema.json](schema.json). There is a GitHub action that validates examples in any pull request to the main branch that contains examples to ensure this.
 
-## Changing the Schema
+## Changing the schema
 
 If your contribution to this repository changes the schema file [schema.json](schema.json), be sure that your changes are reflected in
 
 - All of the examples in the tweets directory
 - The type provider samples file [samples.json](samples.json)
+
+## SRTV code contributions
+
+If you are looking to contribute to the SRTV project, this is the wrong place. The repository you are looking for can be found [here](https://github.com/ZavierHenry/SRTV).
