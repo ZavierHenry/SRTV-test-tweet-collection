@@ -24,6 +24,7 @@ emojis/starstruckRocket.json
 emojis/explodingHead.json
 emojis/neutralFace.json
 emojis/faceScreamingInFear.json
+emojis/beamingFaceWIthSmilingEyes.json
 emojis/smilies.json
 emojis/seeNoEvilMonkey.json
 emojis/sneezingFace.json
@@ -31,8 +32,8 @@ emojis/magnifyingGlass.json
 emojis/downcastFaceWithSweat.json
 emojis/huggingFace.json
 emojis/tiredFace.json
+emojis/smilingFaceWithHorns.json
 emojis/poultryLeg.json
-emojis/grinningFaceWIthSmilingEyes.json
 emojis/olderAdult.json
 emojis/cow.json
 emojis/foldedHands.json
