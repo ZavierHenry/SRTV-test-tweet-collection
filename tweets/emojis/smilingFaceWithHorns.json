@@ -1,0 +1,16 @@
+{
+    "label": "Tweet with a smiling face with horns emoji",
+    "replacements": [{"oldText": "😈", "newText": "smiling face with horns"}],
+    "tweet": {
+        "dateCreated": "2021-08-16T13:44:04.000Z",
+        "id": "1427264902188699657",
+        "text": "@PabloTorre 😈",
+        "author": {
+            "verified": true,
+            "protected": false,
+            "screenName": "Foxworth24",
+            "name": "Domonique Foxworth"
+        },
+        "repliedTo": [ "pablotorre" ]
+    }
+}

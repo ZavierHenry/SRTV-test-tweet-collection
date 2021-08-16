@@ -1,6 +1,6 @@
 {
-    "label": "Tweet with a grinning face with smiling eyes emoji: 😁",
-    "replacements": [{"oldText": "😁", "newText": "grinning face with smiling eyes"}],
+    "label": "Tweet with a beaming face with smiling eyes emoji: 😁",
+    "replacements": [{"oldText": "😁", "newText": "beaming face with smiling eyes"}],
     "tweet": {
         "dateCreated": "2021-08-02T03:31:44.000Z",
         "id": "1422037372384911361",
