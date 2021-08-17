@@ -9,6 +9,7 @@ punctuation/hashtag.json
 punctuation/percent.json
 punctuation/underscore.json
 punctuation/mathEquation.json
+punctuation/quotes.json
 punctuation/atSymbol.json
 noCardUrlDisplay.json
 unavailableQuotedTweet.json
@@ -88,6 +89,7 @@ numbers/times/8am.json
 numbers/address.json
 numbers/negativeNumber.json
 numbers/numberWithComma.json
+numbers/negativeCommaNumber.json
 urlCard.json
 unverifiedTweet.json
 imageTweetNoAltText.json
