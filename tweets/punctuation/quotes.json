@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with words enclosed in quoted",
+    "replacements": [{"oldText": "“let’s go eat”", "newText": "let's go eat"}],
+    "tweet": {
+        "dateCreated": "2021-08-16T21:15:22.000Z",
+        "id": "1427378474684239874",
+        "text": "“let’s go eat” is my love language",
+        "author": {
+            "protected": false,
+            "verified": false,
+            "screenName": "yaire_gonzalezz",
+            "name": "yaire ♡"
+        }
+    }
+}
