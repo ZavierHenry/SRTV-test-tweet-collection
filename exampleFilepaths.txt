@@ -1,5 +1,6 @@
 videoAttribution.json
 fourReplyingTo.json
+quotedTweetPoll.json
 basicVerifiedTweet.json
 gifAltText.json
 quotedTweet.json
