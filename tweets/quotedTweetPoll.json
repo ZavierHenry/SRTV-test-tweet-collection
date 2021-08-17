@@ -1,0 +1,28 @@
+{
+    "label": "Tweet with a poll in the quoted tweet",
+    "tweet": {
+        "id": "1394298093080825870",
+        "text": "So far Naruto is still clear https://t.co/pTEdZkPFeI",
+        "dateCreated": "2021-05-17T14:25:44.000Z",
+        "author": {
+            "screenName": "ShigarakixGoat",
+            "protected": false,
+            "name": "MartinxTrez",
+            "verified": false
+        },
+        "quotedTweet": {
+            "available": true,
+            "tweet": {
+                "author": {
+                    "screenName": "KingOfLighting",
+                    "protected": false,
+                    "name": "Christopher aka T͟hē King Of Lightning",
+                    "verified": false
+                },
+                "text": "Who is a better developed character?",
+                "dateCreated": "2021-05-17T00:26:24.000Z",
+                "hasPoll": true
+            }
+        }
+    }
+}
