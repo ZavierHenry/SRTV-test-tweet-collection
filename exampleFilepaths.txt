@@ -11,6 +11,7 @@ punctuation/underscore.json
 punctuation/mathEquation.json
 punctuation/quotes.json
 punctuation/atSymbol.json
+punctuation/parentheses.json
 noCardUrlDisplay.json
 unavailableQuotedTweet.json
 multipleTcoLinks.json
