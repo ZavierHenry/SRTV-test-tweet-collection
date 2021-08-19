@@ -1,0 +1,15 @@
+{
+    "label": "Tweet with parentheses in them",
+    "tweet": {
+        "text": "@sandofsky (long) live 32-bits!",
+        "id": "1046765413407703041",
+        "dateCreated": "2018-10-01T14:14:57.000Z",
+        "author": {
+            "name": "Brandon Rylow",
+            "verified": false,
+            "screenName": "brandonscript",
+            "protected": false
+        },
+        "repliedTo": ["sandofsky"]
+    }
+}
