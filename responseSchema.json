@@ -276,7 +276,50 @@
             "required": ["data", "includes"]
         },
         "entities": {
-
+            "type": "array",
+            "description": "Twitter v1.1 version of the tweet (to get alt text)",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "extended_entities": {
+                        "type": "object",
+                        "properties": {
+                            "media": {
+                                "type": "array",
+                                "description": "Media of the tweet",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id_str": { "$ref": "#/$defs/id" },
+                                        "type": {
+                                            "type": "string",
+                                            "description": "Type of the media"
+                                        },
+                                        "ext_alt_text": {
+                                            "type": ["string", "null"],
+                                            "description": "Alt text of the media"
+                                        },
+                                        "additional_media_info": {
+                                            "type": "object",
+                                            "properties": {
+                                                "source_user": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "name": {
+                                                            "type": "string",
+                                                            "description": "Name of source account of video"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "required": ["response"]
