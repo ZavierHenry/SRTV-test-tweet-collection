@@ -1,0 +1,25 @@
+{
+    "response": {
+        "data": [
+            {
+                "author_id": "94608495",
+                "created_at": "2021-08-18T22:18:02.000Z",
+                "id": "1428119019547250695",
+                "source": "Twitter for iPhone",
+                "text": "Officially got old head knees, and I’m not happy about it. I thought I was gonna be aight ☹️"
+            }
+        ],
+        "includes": {
+            "users": [
+                {
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1342528537710964744/TdXQeupz_normal.jpg",
+                    "id": "94608495",
+                    "verified": true,
+                    "username": "GeorgeFoster72",
+                    "protected": false,
+                    "name": "FOST"
+                }
+            ]
+        }
+    }
+}

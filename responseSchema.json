@@ -1,0 +1,283 @@
+{
+    "title": "SRTV Test Twitter Response Schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "version": "1.0.0",
+    "description": "A test in the Twitter response corpus",
+    "$defs": {
+        "id": {
+            "type": "string",
+            "pattern": "^\\d+$"
+        },
+        "time": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.0*)?Z$"
+        },
+        "tweets": {
+            "type": "array",
+            "description": "List of tweets",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": { "$ref": "#/$defs/id"},
+                    "text": {
+                        "type": "string",
+                        "description": "Text of the tweet"
+                    },
+                    "source": {
+                        "type": "string",
+                        "description": "Source of the tweet (e.g. Twitter for iPhone, Sprinklr)"
+                    },
+                    "created_at": { "$ref": "#/$defs/time" },
+                    "author_id": { "$ref": "#/$defs/id" },
+                    "referenced_tweets": {
+                        "type": "array",
+                        "description": "Referenced tweets property",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string",
+                                    "enum": ["quoted", "replied_to", "retweeted"]
+                                },
+                                "id": { "$ref": "#/$defs/id" }
+                            },
+                            "required": ["id", "type"]
+                        }
+                    },
+                    "attachments": {
+                        "type": "object",
+                        "description": "Tweet attachments",
+                        "properties": {
+                            "poll_ids": {
+                                "type": "array",
+                                "items": { "$ref": "#/$defs/id" }
+                            },
+                            "media_keys": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^\\d+_\\d+$"
+                                }
+                            }
+                        }
+                    },
+                    "in_reply_to_user_id": { "$ref": "#/$defs/id" },
+                    "entities": {
+                        "type": "object",
+                        "description": "Tweet entities",
+                        "properties": {
+                            "mentions": {
+                                "type": "array",
+                                "description": "Mention entities",
+                                "items": {
+                                    "type": "object",
+                                    "properties" : {
+                                        "start": {
+                                            "type": "integer",
+                                            "description": "Starting index of the mention",
+                                            "minimum": 0
+                                        },
+                                        "end": {
+                                            "type": "integer",
+                                            "description": "Ending index of the mention",
+                                            "minimum": 0
+                                        },
+                                        "tag": {
+                                            "type": "string",
+                                            "description": "Mention tag"
+                                        }
+                                    },
+                                    "required": ["start", "end", "tag"]
+                                }
+                            },
+                            "urls": {
+                                "type": "array",
+                                "description": "Urls of the tweet",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "start": {
+                                            "type": "integer",
+                                            "description": "Starting index of the url",
+                                            "minimum": 0
+                                        },
+                                        "end": {
+                                            "type": "integer",
+                                            "description": "Ending index of the url",
+                                            "minimum": 0
+                                        },
+                                        "url": {
+                                            "type": "string",
+                                            "description": "Shortened url (t.co link)"
+                                        },
+                                        "expanded_url": {
+                                            "type": "string",
+                                            "description": "Expanded url"
+                                        },
+                                        "display_url": {
+                                            "type": "string",
+                                            "description": "Display version of the url"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "description": "Status code of the url",
+                                            "pattern": "^\\d+$"
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "description": "Title of the url"
+                                        },
+                                        "description": {
+                                            "type": "string",
+                                            "description": "Description of the url"
+                                        },
+                                        "unwound_url": {
+                                            "type": "string",
+                                            "description": "Unwound url"
+                                        },
+                                        "images": {
+                                            "type": "array",
+                                            "description": "Images of the url (cards)",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "width": {
+                                                        "type": "integer",
+                                                        "description": "Width of the image",
+                                                        "minimum": 0
+                                                    },
+                                                    "height": {
+                                                        "type": "integer",
+                                                        "description": "Height of the image",
+                                                        "minimum": 0
+                                                    },
+                                                    "url": {
+                                                        "type": "string",
+                                                        "description": "Url of the card"
+                                                    }
+                                                },
+                                                "required": ["url", "width", "height"]
+                                            }
+                                        }
+                                    },
+                                    "required": ["start", "end", "url", "expanded_url", "display_url", "status", "title", "description", "unwound_url"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": ["id", "text", "created_at", "author_id", "source"]
+            }
+        }
+    },
+    "properties": {
+        "response": {
+            "type": "object",
+            "properties": {
+                "data": { "$ref": "#/$defs/tweets"},
+                "includes": {
+                    "type": "object",
+                    "description": "Objects that were expanded",
+                    "properties": {
+                        "users": {
+                            "type": "array",
+                            "description": "User objects",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string",
+                                        "description": "User ID"
+                                    },
+                                    "profile_image_url": {
+                                        "type": "string",
+                                        "description": "Profile image URL of the user"
+                                    },
+                                    "verified": {
+                                        "type": "boolean",
+                                        "description": "Boolean showing whether the user is verified"
+                                    },
+                                    "username": {
+                                        "type": "string",
+                                        "description": "The username of the user"
+                                    },
+                                    "name": {
+                                        "type": "string",
+                                        "description": "The name of the user"
+                                    },
+                                    "protected": {
+                                        "type": "boolean",
+                                        "description": "Boolean indicating whether it is a protected account"
+                                    }
+                                },
+                                "required": ["profile_image_url", "id", "verified", "username", "protected", "name"]
+                            }
+                        },
+                        "tweets": { "$ref": "#/$defs/tweets" },
+                        "polls": {
+                            "type": "array",
+                            "description": "List of polls",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": { "$ref": "#/$defs/id" },
+                                    "end_datetime": { "$ref": "#/$defs/time" },
+                                    "options": {
+                                        "type": "array",
+                                        "description": "Options of the poll",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "position": {
+                                                    "type": "integer",
+                                                    "description": "Position of the option in the poll",
+                                                    "minimum": 1
+                                                },
+                                                "label": {
+                                                    "type": "string",
+                                                    "description": "Label of the poll"
+                                                },
+                                                "votes": {
+                                                    "type": "integer",
+                                                    "description": "Number of votes for each option",
+                                                    "minimum": 0
+                                                }
+                                            },
+                                            "required": ["position", "votes", "label"]
+                                        }
+                                    }
+                                },
+                                "required": ["id", "end_datetime", "options"]
+                            }
+                        },
+                        "media": {
+                            "type": "array",
+                            "description": "Media that was expanded",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "media_key": {
+                                        "type": "string",
+                                        "description": "Media key of the media",
+                                        "pattern": "^\\d+_\\d+$"
+                                    },
+                                    "type": {
+                                        "type": "string",
+                                        "description": "Type of media",
+                                        "enum": ["photo", "animated_gif", "video"]
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            },
+            "required": ["data", "includes"]
+        },
+        "entities": {
+
+        }
+    },
+    "required": ["response"]
+}

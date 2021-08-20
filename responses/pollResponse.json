@@ -1,0 +1,48 @@
+{
+    "response": {
+        "data": [
+            {
+                "author_id": "1479781850",
+                "attachments": {
+                    "poll_ids": [
+                        "1394086866304094214"
+                    ]
+                },
+                "created_at": "2021-05-17T00:26:24.000Z",
+                "id": "1394086866639597572",
+                "text": "Who is a better developed character?",
+                "source": "Twitter Web App"
+            }
+        ],
+        "includes": {
+            "polls": [
+                {
+                    "end_datetime": "2021-05-18T00:26:24.000Z",
+                    "id": "1394086866304094214",
+                    "options": [
+                        {
+                            "position": 1,
+                            "label": "Deku (All of MHA)",
+                            "votes": 1909
+                        },
+                        {
+                            "position": 2,
+                            "label": "Part 2 Naruto",
+                            "votes": 2135
+                        }
+                    ]
+                }
+            ],
+            "users": [
+                {
+                    "protected": false,
+                    "verified": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1014621652829724672/ZVvdeVlm_normal.jpg",
+                    "name": "Christopher aka T͟hē King Of Lightning",
+                    "id": "1479781850",
+                    "username": "KingOfLighting"
+                }
+            ]
+        }
+    }
+}
