@@ -1,0 +1,77 @@
+{
+    "response": {
+        "data": [
+            {
+                "id": "1429164418693271552",
+                "in_reply_to_user_id": "25198779",
+                "referenced_tweets": [
+                    {
+                        "type": "replied_to",
+                        "id": "1429163842244947973"
+                    }
+                ],
+                "entities": {
+                    "annotations": [
+                        {
+                            "start": 14,
+                            "end": 17,
+                            "probability": 0.5048,
+                            "type": "Organization",
+                            "normalized_text": "UofL"
+                        }
+                    ],
+                    "mentions": [
+                        {
+                            "start": 0,
+                            "end": 11,
+                            "username": "amandamull",
+                            "id": "25198779"
+                        }
+                    ]
+                },
+                "text": "@amandamull A UofL grad discussing “academic talent” may be the funniest thing I read today.",
+                "reply_settings": "everyone",
+                "author_id": "27301241",
+                "created_at": "2021-08-21T19:32:04.000Z",
+                "source": "Twitter for iPhone"
+            }
+        ],
+        "includes": {
+            "users": [
+                {
+                    "verified": false,
+                    "username": "traddfromme",
+                    "name": "Tradd Fromme",
+                    "id": "27301241",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/477142434078416896/9w3lYl3Q_normal.jpeg",
+                    "protected": false
+                },
+                {
+                    "verified": true,
+                    "username": "amandamull",
+                    "name": "Amanda Mull",
+                    "id": "25198779",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1417851150280413189/pIFXd0SQ_normal.jpg",
+                    "protected": false
+                }
+            ],
+            "tweets": [
+                {
+                    "id": "1429163842244947973",
+                    "in_reply_to_user_id": "25198779",
+                    "referenced_tweets": [
+                        {
+                            "type": "replied_to",
+                            "id": "1429163688464994306"
+                        }
+                    ],
+                    "text": "leave it to a Tech grad to misunderstand the point of college this badly",
+                    "reply_settings": "everyone",
+                    "author_id": "25198779",
+                    "created_at": "2021-08-21T19:29:47.000Z",
+                    "source": "Twitter for iPhone"
+                }
+            ]
+        }
+    }
+}

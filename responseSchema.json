@@ -82,12 +82,13 @@
                                             "description": "Ending index of the mention",
                                             "minimum": 0
                                         },
-                                        "tag": {
+                                        "username": {
                                             "type": "string",
-                                            "description": "Mention tag"
-                                        }
+                                            "description": "Username of the mention"
+                                        },
+                                        "id": { "$ref": "#/$defs/id" }
                                     },
-                                    "required": ["start", "end", "tag"]
+                                    "required": ["start", "end", "username", "id"]
                                 }
                             },
                             "urls": {
