@@ -2,7 +2,11 @@
 
 ## Tweet Examples
 
-This is a collection of JSON examples used for testing in the [SRTV repository](https://github.com/ZavierHenry/SRTV). Each example follows the JSON schema outlined in [schema.json](schema.json). All of the examples can be found in the _tweets_ directory.
+This is a collection of JSON tweet examples used for testing in the [SRTV repository](https://github.com/ZavierHenry/SRTV). Each example follows the JSON schema outlined in [schema.json](schema.json). All of the examples can be found in the _tweets_ directory.
+
+## Twitter API Responses
+
+This is a collection of JSON Twitter API responses that are also used for testing in the SRTV repository. These examples follow the JSON schema outlined in [responseSchema.json](responseSchema.json). All of the response examples can be found in the _responses_ directory.
 
 ## Examples Map
 
