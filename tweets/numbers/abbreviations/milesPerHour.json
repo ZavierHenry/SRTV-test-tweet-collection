@@ -1,6 +1,6 @@
 {
     "label": "Tweet with the abbreviation for miles per hour",
-    "replacements": [{"oldText": "110 mph", "newText": "one hundred ten miles per hour"}],
+    "replacements": [{"oldText": "110 mph", "newText": "one hundred and ten miles per hour"}],
     "tweet": {
         "dateCreated": "2021-07-28T17:34:47.000Z",
         "id": "1420437592089133057",
