@@ -1,6 +1,6 @@
 {
     "label": "Tweet with the abbreviation for mountain time (MT)",
-    "replacements": [{"oldText": "8:05 PM MT", "newText": "eight oh five P M mountain time"}],
+    "replacements": [{"oldText": "8:05 PM MT", "newText": "eight o five p m mountain time"}],
     "tweet": {
         "imageAltTexts": [{"hasAltText": false}],
         "id": "1423433644409032708",
