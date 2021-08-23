@@ -1,6 +1,6 @@
 {
     "label": "Tweet with the abbreviation for central time (CT)",
-    "replacements": [{"oldText": "7:00 PM CT", "newText": "seven P M central time"}],
+    "replacements": [{"oldText": "7:00 PM CT", "newText": "seven p m central time"}],
     "tweet": {
         "dateCreated": "2021-08-12T14:03:43.000Z",
         "text": "GAME DAY🚀🚀🚀🚀 7:00 PM CT\n🚨Rockets vs Raptors🚨\n🚨Green vs Barnes🚨\nWill Houston still be unbeaten after tonight? https://t.co/Q2LbvEUJO1",
