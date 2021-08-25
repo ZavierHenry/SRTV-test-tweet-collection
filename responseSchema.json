@@ -161,7 +161,7 @@
                                             }
                                         }
                                     },
-                                    "required": ["start", "end", "url", "expanded_url", "display_url", "status", "title", "description", "unwound_url"]
+                                    "required": ["start", "end", "url", "expanded_url", "display_url"]
                                 }
                             }
                         }
