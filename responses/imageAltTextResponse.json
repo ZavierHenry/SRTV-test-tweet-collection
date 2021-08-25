@@ -1,0 +1,223 @@
+{
+    "response": {
+        "data": [
+            {
+                "in_reply_to_user_id": "3255849672",
+                "referenced_tweets": [
+                    {
+                        "type": "replied_to",
+                        "id": "1427720060597018626"
+                    }
+                ],
+                "id": "1428036269356068882",
+                "source": "Twitter for Android",
+                "text": "@miriramirezz Image with alt text (includes list of website that offer free textbook downloads) https://t.co/b7RDQ9kFCR",
+                "reply_settings": "everyone",
+                "entities": {
+                    "mentions": [
+                        {
+                            "start": 0,
+                            "end": 13,
+                            "username": "miriramirezz",
+                            "id": "3255849672"
+                        }
+                    ],
+                    "urls": [
+                        {
+                            "start": 96,
+                            "end": 119,
+                            "url": "https://t.co/b7RDQ9kFCR",
+                            "expanded_url": "https://twitter.com/BlueEterlin/status/1428036269356068882/photo/1",
+                            "display_url": "pic.twitter.com/b7RDQ9kFCR"
+                        }
+                    ]
+                },
+                "created_at": "2021-08-18T16:49:12.000Z",
+                "author_id": "1156172121493708802",
+                "attachments": {
+                    "media_keys": [
+                        "3_1428036267682435077"
+                    ]
+                }
+            }
+        ],
+        "includes": {
+            "media": [
+                {
+                    "media_key": "3_1428036267682435077",
+                    "type": "photo"
+                }
+            ],
+            "users": [
+                {
+                    "protected": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1158595460262760448/NPsBUGBS_normal.jpg",
+                    "name": "Eterlin Blue",
+                    "id": "1156172121493708802",
+                    "verified": false,
+                    "username": "BlueEterlin"
+                },
+                {
+                    "protected": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1397786536205160451/HH2fTTnx_normal.jpg",
+                    "name": "miri ☁️",
+                    "id": "3255849672",
+                    "verified": false,
+                    "username": "miriramirezz"
+                }
+            ],
+            "tweets": [
+                {
+                    "id": "1427720060597018626",
+                    "source": "Twitter for iPhone",
+                    "text": "to all my college people, save your coin &lt;333 https://t.co/Um6w0B9n5v",
+                    "reply_settings": "everyone",
+                    "entities": {
+                        "urls": [
+                            {
+                                "start": 49,
+                                "end": 72,
+                                "url": "https://t.co/Um6w0B9n5v",
+                                "expanded_url": "https://twitter.com/miriramirezz/status/1427720060597018626/photo/1",
+                                "display_url": "pic.twitter.com/Um6w0B9n5v"
+                            }
+                        ]
+                    },
+                    "created_at": "2021-08-17T19:52:42.000Z",
+                    "author_id": "3255849672",
+                    "attachments": {
+                        "media_keys": [
+                            "3_1427720055366717440"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "entities": [
+        {
+            "created_at": "Wed Aug 18 16:49:12 +0000 2021",
+            "id": 1428036269356068882,
+            "id_str": "1428036269356068882",
+            "text": "@miriramirezz Image with alt text (includes list of website that offer free textbook downloads) https://t.co/b7RDQ9kFCR",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "miriramirezz",
+                        "name": "miri ☁️",
+                        "id": 3255849672,
+                        "id_str": "3255849672",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1428036267682435077,
+                        "id_str": "1428036267682435077",
+                        "indices": [
+                            96,
+                            119
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/E9Fna12WEAU7h2P.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/E9Fna12WEAU7h2P.jpg",
+                        "url": "https://t.co/b7RDQ9kFCR",
+                        "display_url": "pic.twitter.com/b7RDQ9kFCR",
+                        "expanded_url": "https://twitter.com/BlueEterlin/status/1428036269356068882/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 828,
+                                "h": 1792,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 314,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 554,
+                                "h": 1200,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1428036267682435077,
+                        "id_str": "1428036267682435077",
+                        "indices": [
+                            96,
+                            119
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/E9Fna12WEAU7h2P.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/E9Fna12WEAU7h2P.jpg",
+                        "url": "https://t.co/b7RDQ9kFCR",
+                        "display_url": "pic.twitter.com/b7RDQ9kFCR",
+                        "expanded_url": "https://twitter.com/BlueEterlin/status/1428036269356068882/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 828,
+                                "h": 1792,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 314,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 554,
+                                "h": 1200,
+                                "resize": "fit"
+                            }
+                        },
+                        "ext_alt_text": "share to help others not waste on text books anymore\n\nHi guys\n\nSo either we are about to start college again or just started classes but DONT BUY TEXTBOOKS!! You dont even have to rent them. I wish someone would of told me but there are soo\n\nmany websites that provide! FREE! textbooks.\n\nHere is the list I have so far:\n\n1. TextBookNova.com\n\n2. eBookee.org\n\n3. ManyBooks.net 4. FeedUrBrain.com\n\n5. AllenG.ru\n\n6.20200k.com 7. FreeTextBooks.com\n\n8. Gutenberg.org\n\n9. Eknigu.com\n\n10. En.Bookfi.org\n\n11. Libgen.lc\n\n12. bookguru.net\n\n13. z-lib.org"
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": 1427720060597018626,
+            "in_reply_to_status_id_str": "1427720060597018626",
+            "in_reply_to_user_id": 3255849672,
+            "in_reply_to_user_id_str": "3255849672",
+            "in_reply_to_screen_name": "miriramirezz",
+            "user": {
+                "id": 1156172121493708802,
+                "id_str": "1156172121493708802"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 88,
+            "favorite_count": 259,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        }
+    ]
+}
