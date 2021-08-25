@@ -1,0 +1,132 @@
+{
+    "response": {
+        "data": [
+            {
+                "entities": {
+                    "annotations": [
+                        {
+                            "start": 10,
+                            "end": 13,
+                            "probability": 0.9584,
+                            "type": "Organization",
+                            "normalized_text": "ESPN"
+                        },
+                        {
+                            "start": 25,
+                            "end": 38,
+                            "probability": 0.9963,
+                            "type": "Person",
+                            "normalized_text": "Rachel Nichols"
+                        },
+                        {
+                            "start": 51,
+                            "end": 53,
+                            "probability": 0.9439,
+                            "type": "Organization",
+                            "normalized_text": "NBA"
+                        },
+                        {
+                            "start": 111,
+                            "end": 118,
+                            "probability": 0.4751,
+                            "type": "Other",
+                            "normalized_text": "The Jump"
+                        }
+                    ],
+                    "mentions": [
+                        {
+                            "start": 126,
+                            "end": 137,
+                            "username": "Ourand_SBJ",
+                            "id": "17903419"
+                        }
+                    ],
+                    "urls": [
+                        {
+                            "start": 138,
+                            "end": 161,
+                            "url": "https://t.co/n7WCKzYf2n",
+                            "expanded_url": "https://twitter.com/TheNBACentral/status/1430613742409162756/photo/1",
+                            "display_url": "pic.twitter.com/n7WCKzYf2n"
+                        }
+                    ]
+                },
+                "created_at": "2021-08-25T19:31:10.000Z",
+                "reply_settings": "everyone",
+                "attachments": {
+                    "media_keys": [
+                        "3_1430613736293810182"
+                    ]
+                },
+                "author_id": "1548977419",
+                "source": "Twitter for iPhone",
+                "text": "BREAKING: ESPN has taken Rachel Nichols off of all NBA programming and will cancel her weekday afternoon show “The Jump,” per @Ourand_SBJ https://t.co/n7WCKzYf2n",
+                "id": "1430613742409162756"
+            }
+        ],
+        "includes": {
+            "media": [
+                {
+                    "media_key": "3_1430613736293810182",
+                    "type": "photo"
+                }
+            ],
+            "users": [
+                {
+                    "verified": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1221617218615676929/R3Y-rM_G_normal.jpg",
+                    "protected": false,
+                    "name": "NBA Central",
+                    "username": "TheNBACentral",
+                    "id": "1548977419"
+                }
+            ]
+        }
+    },
+    "entities": [
+        {
+            "created_at": "Wed Aug 25 19:31:10 +0000 2021",
+            "id": 1430613742409162756,
+            "id_str": "1430613742409162756",
+            "text": "BREAKING: ESPN has taken Rachel Nichols off of all NBA programming and will cancel her weekday afternoon show “The… https://t.co/AngosIbp5g",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/AngosIbp5g",
+                        "expanded_url": "https://twitter.com/i/web/status/1430613742409162756",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            116,
+                            139
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 1548977419,
+                "id_str": "1548977419"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 470,
+            "favorite_count": 2591,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        }
+    ]
+}

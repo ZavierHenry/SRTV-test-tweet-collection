@@ -1,0 +1,295 @@
+{
+    "response": {
+        "data": [
+            {
+                "created_at": "2021-08-25T15:25:34.000Z",
+                "text": "@Sh1bumi Image with alt text https://t.co/eDsrWwnQmO",
+                "id": "1430551935732563970",
+                "author_id": "701874326207725568",
+                "referenced_tweets": [
+                    {
+                        "type": "replied_to",
+                        "id": "1430539630017925129"
+                    }
+                ],
+                "attachments": {
+                    "media_keys": [
+                        "3_1430551925808902156",
+                        "3_1430551930800066565"
+                    ]
+                },
+                "entities": {
+                    "mentions": [
+                        {
+                            "start": 0,
+                            "end": 8,
+                            "username": "Sh1bumi",
+                            "id": "1378327190"
+                        }
+                    ],
+                    "urls": [
+                        {
+                            "start": 29,
+                            "end": 52,
+                            "url": "https://t.co/eDsrWwnQmO",
+                            "expanded_url": "https://twitter.com/nanouofthenorth/status/1430551935732563970/photo/1",
+                            "display_url": "pic.twitter.com/eDsrWwnQmO"
+                        },
+                        {
+                            "start": 29,
+                            "end": 52,
+                            "url": "https://t.co/eDsrWwnQmO",
+                            "expanded_url": "https://twitter.com/nanouofthenorth/status/1430551935732563970/photo/1",
+                            "display_url": "pic.twitter.com/eDsrWwnQmO"
+                        }
+                    ]
+                },
+                "reply_settings": "everyone",
+                "source": "Twitter for Android",
+                "in_reply_to_user_id": "1378327190"
+            }
+        ],
+        "includes": {
+            "media": [
+                {
+                    "media_key": "3_1430551925808902156",
+                    "type": "photo"
+                },
+                {
+                    "media_key": "3_1430551930800066565",
+                    "type": "photo"
+                }
+            ],
+            "users": [
+                {
+                    "protected": false,
+                    "verified": false,
+                    "username": "nanouofthenorth",
+                    "name": "Peter Thompson",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1424264519795236866/0Rw80pfy_normal.jpg",
+                    "id": "701874326207725568"
+                },
+                {
+                    "protected": false,
+                    "verified": false,
+                    "username": "Sh1bumi",
+                    "name": "Christian Rebischke",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1239278961416380425/OuxA-a0o_normal.jpg",
+                    "id": "1378327190"
+                }
+            ],
+            "tweets": [
+                {
+                    "created_at": "2021-08-25T14:36:40.000Z",
+                    "text": "Happy Birthday #Linux\n\nI think I wouldn't be where I am right now without Linux.\n\nThank you Linus. https://t.co/wNupqK0Nt3",
+                    "id": "1430539630017925129",
+                    "author_id": "1378327190",
+                    "entities": {
+                        "annotations": [
+                            {
+                                "start": 74,
+                                "end": 78,
+                                "probability": 0.514,
+                                "type": "Product",
+                                "normalized_text": "Linux"
+                            },
+                            {
+                                "start": 92,
+                                "end": 96,
+                                "probability": 0.5786,
+                                "type": "Person",
+                                "normalized_text": "Linus"
+                            }
+                        ],
+                        "hashtags": [
+                            {
+                                "start": 15,
+                                "end": 21,
+                                "tag": "Linux"
+                            }
+                        ],
+                        "urls": [
+                            {
+                                "start": 99,
+                                "end": 122,
+                                "url": "https://t.co/wNupqK0Nt3",
+                                "expanded_url": "https://twitter.com/Sh1bumi/status/1430539630017925129/photo/1",
+                                "display_url": "pic.twitter.com/wNupqK0Nt3"
+                            }
+                        ]
+                    },
+                    "attachments": {
+                        "media_keys": [
+                            "3_1430539367244865541"
+                        ]
+                    },
+                    "reply_settings": "everyone",
+                    "source": "Twitter Web App"
+                }
+            ]
+        }
+    },
+    "entities": [
+        {
+            "created_at": "Wed Aug 25 15:25:34 +0000 2021",
+            "id": 1430551935732563970,
+            "id_str": "1430551935732563970",
+            "text": "@Sh1bumi Image with alt text https://t.co/eDsrWwnQmO",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "Sh1bumi",
+                        "name": "Christian Rebischke",
+                        "id": 1378327190,
+                        "id_str": "1378327190",
+                        "indices": [
+                            0,
+                            8
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1430551925808902156,
+                        "id_str": "1430551925808902156",
+                        "indices": [
+                            29,
+                            52
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/E9pXZaqXMAwFDV9.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/E9pXZaqXMAwFDV9.jpg",
+                        "url": "https://t.co/eDsrWwnQmO",
+                        "display_url": "pic.twitter.com/eDsrWwnQmO",
+                        "expanded_url": "https://twitter.com/nanouofthenorth/status/1430551935732563970/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 654,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1125,
+                                "h": 1082,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1125,
+                                "h": 1082,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1430551925808902156,
+                        "id_str": "1430551925808902156",
+                        "indices": [
+                            29,
+                            52
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/E9pXZaqXMAwFDV9.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/E9pXZaqXMAwFDV9.jpg",
+                        "url": "https://t.co/eDsrWwnQmO",
+                        "display_url": "pic.twitter.com/eDsrWwnQmO",
+                        "expanded_url": "https://twitter.com/nanouofthenorth/status/1430551935732563970/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 654,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1125,
+                                "h": 1082,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1125,
+                                "h": 1082,
+                                "resize": "fit"
+                            }
+                        },
+                        "ext_alt_text": "Happy 30th birthday Linux\n\nFrom: torvalds@klaava. Helsinki.FI (Linus Benedict Torvalds) Newsgroups: comp.os.minix Subject: What would you like to see most in minix? Summary: small poll for my new operating system\n\nMessage-ID:\n\nDate: 25 Aug 91 20:57:08 GMT\n\nOrganization: University of Helsinki\n\nHello everybody out there using minix -\n\nI'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386 (486) AT clones. This has been brewing since april, and is starting to get ready. I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).\n\nI've currently ported bash (1.08) and gcc (1.40), and things seem to work. This implies that I'll get something practical within a few months, and I'd like to know what features most people would want. Any suggestions are welcome, but I won't promise I'll implement them :-) (cont...)"
+                    },
+                    {
+                        "id": 1430551930800066565,
+                        "id_str": "1430551930800066565",
+                        "indices": [
+                            29,
+                            52
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/E9pXZtQWUAUnQS0.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/E9pXZtQWUAUnQS0.jpg",
+                        "url": "https://t.co/eDsrWwnQmO",
+                        "display_url": "pic.twitter.com/eDsrWwnQmO",
+                        "expanded_url": "https://twitter.com/nanouofthenorth/status/1430551935732563970/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 654,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1125,
+                                "h": 1082,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1125,
+                                "h": 1082,
+                                "resize": "fit"
+                            }
+                        },
+                        "ext_alt_text": "PS. Yes it's free of any minix code, and it has a multi-threaded fs. It is NOT protable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(."
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": 1430539630017925129,
+            "in_reply_to_status_id_str": "1430539630017925129",
+            "in_reply_to_user_id": 1378327190,
+            "in_reply_to_user_id_str": "1378327190",
+            "in_reply_to_screen_name": "Sh1bumi",
+            "user": {
+                "id": 701874326207725568,
+                "id_str": "701874326207725568"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 2,
+            "favorite_count": 12,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        }
+    ]
+}

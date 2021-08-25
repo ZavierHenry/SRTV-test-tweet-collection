@@ -82,12 +82,13 @@
                                             "description": "Ending index of the mention",
                                             "minimum": 0
                                         },
-                                        "tag": {
+                                        "username": {
                                             "type": "string",
-                                            "description": "Mention tag"
-                                        }
+                                            "description": "Username of the mention"
+                                        },
+                                        "id": { "$ref": "#/$defs/id" }
                                     },
-                                    "required": ["start", "end", "tag"]
+                                    "required": ["start", "end", "username", "id"]
                                 }
                             },
                             "urls": {
@@ -119,9 +120,8 @@
                                             "description": "Display version of the url"
                                         },
                                         "status": {
-                                            "type": "string",
-                                            "description": "Status code of the url",
-                                            "pattern": "^\\d+$"
+                                            "type": "integer",
+                                            "description": "Status code of the url"
                                         },
                                         "title": {
                                             "type": "string",
@@ -160,7 +160,7 @@
                                             }
                                         }
                                     },
-                                    "required": ["start", "end", "url", "expanded_url", "display_url", "status", "title", "description", "unwound_url"]
+                                    "required": ["start", "end", "url", "expanded_url", "display_url"]
                                 }
                             }
                         }
