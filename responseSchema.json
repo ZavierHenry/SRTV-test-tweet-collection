@@ -120,9 +120,8 @@
                                             "description": "Display version of the url"
                                         },
                                         "status": {
-                                            "type": "string",
-                                            "description": "Status code of the url",
-                                            "pattern": "^\\d+$"
+                                            "type": "integer",
+                                            "description": "Status code of the url"
                                         },
                                         "title": {
                                             "type": "string",
