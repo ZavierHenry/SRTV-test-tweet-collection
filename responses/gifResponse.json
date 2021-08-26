@@ -4,7 +4,6 @@
             {
                 "id": "1429129234425913348",
                 "author_id": "17292498",
-                "reply_settings": "everyone",
                 "attachments": {
                     "media_keys": [
                         "16_1429129228411305984"
@@ -68,7 +67,6 @@
                 {
                     "id": "1429109907719139328",
                     "author_id": "95431448",
-                    "reply_settings": "everyone",
                     "entities": {
                         "annotations": [
                             {
