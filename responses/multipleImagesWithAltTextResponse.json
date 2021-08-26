@@ -44,7 +44,6 @@
                         }
                     ]
                 },
-                "reply_settings": "everyone",
                 "source": "Twitter for Android",
                 "in_reply_to_user_id": "1378327190"
             }
@@ -123,7 +122,6 @@
                             "3_1430539367244865541"
                         ]
                     },
-                    "reply_settings": "everyone",
                     "source": "Twitter Web App"
                 }
             ]
