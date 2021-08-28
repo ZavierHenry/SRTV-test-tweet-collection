@@ -1,0 +1,32 @@
+name: TweetValidator
+
+on:
+
+  push:
+    branches: [ main ]
+    paths:
+      - 'tweets/**/*.json'
+      - 'schema.json'
+      
+  pull_request:
+    branches: [ main ]
+      - 'tweets/**/*.json'
+      - 'schema.json'
+      
+  workflow_dispatch:
+  
+jobs:
+
+   validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run validation
+      run: python "$VALIDATION_SCRIPT" "$SCHEMA_FILE" "$EXAMPLES_DIR"
+      env:
+        VALIDATION_SCRIPT: "scripts/exampleValidation.py"
+        SCHEMA_FILE: "schema.json"
+        EXAMPLES_DIR: "tweets/"
