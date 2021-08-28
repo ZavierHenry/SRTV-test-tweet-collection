@@ -1,6 +1,6 @@
-# This is a basic workflow to help you get started with Actions
+# This creates a list of file locations for tweets
 
-name: FileListUpdater
+name: TweetListUpdater
 
 # Controls when the workflow will run
 on:
@@ -9,19 +9,15 @@ on:
     branches: [ main ]
     paths: 
       - 'tweets/**/*.json'
-      - 'schema.json'
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
 
   update:
 
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -39,18 +35,4 @@ jobs:
             file-path: exampleFilepaths.txt
             commit-msg: Update list of tweet filepaths in repo
             github-token: ${{ secrets.GITHUB_TOKEN }}
-
-  validate:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run validation
-      run: python "$VALIDATION_SCRIPT" "$SCHEMA_FILE" "$EXAMPLES_DIR"
-      env:
-        VALIDATION_SCRIPT: "scripts/exampleValidation.py"
-        SCHEMA_FILE: "schema.json"
-        EXAMPLES_DIR: "tweets/"
           
