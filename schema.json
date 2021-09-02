@@ -192,16 +192,16 @@
               "type": "string",
               "description": "Description of url card"
             },
-            "url": {
+            "unwoundUrl": {
               "type": "string",
-              "description": "Url for the url card"
+              "description": "Full for the url card"
             },
-            "shortenedUrl": {
+            "url": {
               "type": "string",
               "description": "Shortened url for the url card"
             }
           },
-          "required": ["title", "description", "url"]
+          "required": ["title", "description", "url", "unwoundUrl"]
         },
         "poll": {
           "type": "object",
@@ -231,6 +231,29 @@
             }
           },
           "required": ["endDate", "options"]
+        },
+        "urls": {
+          "type": "array",
+          "description": "Urls in the tweet",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "description": "Shortened url (t.co link)"
+              },
+              "start": {
+                "type": "integer",
+                "description": "Start index of the url",
+                "minimum": 0
+              },
+              "displayUrl": {
+                "type": "string",
+                "description": "Display version of the URL"
+              }
+            },
+            "required": [ "url", "start", "displayUrl"]
+          }
         }
       },
       "description": "The test tweet",
