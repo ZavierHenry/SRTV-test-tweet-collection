@@ -11,6 +11,14 @@
             "protected": false,
             "screenName": "thereidout"
         },
-        "imageAltTexts": [{"hasAltText": false}]
+        "imageAltTexts": [{"hasAltText": false}],
+        "urls": [
+            {
+                "start": 91,
+                "url": "https://t.co/lhcKTo6tM5",
+                "expandedUrl": "https://twitter.com/thereidout/status/1425528826868731910/photo/1",
+                "displayUrl": "pic.twitter.com/lhcKTo6tM5"
+            }
+        ]
     }
 }

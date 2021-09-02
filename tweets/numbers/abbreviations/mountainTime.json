@@ -11,6 +11,40 @@
             "screenName": "epchihuahuas",
             "verified": true,
             "name": "El Paso Chihuahuas"
-        }
+        },
+        "urlCards": [
+            {
+                "title": "MiLB.TV - Baseball's Future Now",
+                "description": "The Official Site of Minor League Baseball web site includes features, news, rosters, statistics, schedules, teams, live game radio broadcasts, and video clips.",
+                "unwoundUrl": "https://www.milb.com/live-stream-games/subscribe",
+                "url": "https://t.co/eeMVUtfaEF"
+            },
+            {
+                "title": "Listen Live to Minor League Baseball",
+                "description": "The Official Site of Minor League Baseball web site includes features, news, rosters, statistics, schedules, teams, live game radio broadcasts, and video clips.",
+                "unwoundUrl": "https://www.milb.com/live-stream-games/audio",
+                "url": "https://t.co/bZ7n8x842w"
+            }
+        ],
+        "urls": [
+            {
+                "start": 102,
+                "url": "https://t.co/eeMVUtfaEF",
+                "expandedUrl": "http://MiLB.tv",
+                "displayUrl": "MiLB.tv"
+            },
+            {
+                "start": 134,
+                "url": "https://t.co/bZ7n8x842w",
+                "expandedUrl": "http://atmilb.com/3w0L6NB",
+                "displayUrl": "atmilb.com/3w0L6NB"
+            },
+            {
+                "start": 158,
+                "url": "https://t.co/VfRctp5f0r",
+                "expandedUrl": "https://twitter.com/epchihuahuas/status/1423433644409032708/photo/1",
+                "displayUrl": "pic.twitter.com/VfRctp5f0r"
+            }
+        ]
     }
 }
