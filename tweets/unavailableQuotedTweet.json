@@ -12,6 +12,14 @@
         },
         "quotedTweet": {
             "available": false
-        }
+        },
+        "urls": [
+            {
+                "start": 10,
+                "url": "https://t.co/6TzuMOMaa0",
+                "expandedUrl": "https://twitter.com/SportsAngle/status/1419632480014016520",
+                "displayUrl": "twitter.com/SportsAngle/st…"
+            }
+        ]
     }
 }

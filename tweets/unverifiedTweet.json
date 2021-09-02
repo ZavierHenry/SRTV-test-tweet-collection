@@ -10,6 +10,14 @@
     },
     "dateCreated": "2021-05-08T17:05:35.000Z",
     "text": "[narrator's voice] the mavericks won their division and are playoff-bound https://t.co/O9pWhG0QSk",
+    "urls": [
+      {
+        "url": "https://t.co/O9pWhG0QSk",
+        "start": 74,
+        "displayUrl": "pic.twitter.com/O9pWhG0QSk",
+        "expandedUrl": "https://twitter.com/MikeTaddow/status/1391076826576048129/photo/1"
+      }
+    ],
     "imageAltTexts": [ {"hasAltText": false} ]
   }
 }

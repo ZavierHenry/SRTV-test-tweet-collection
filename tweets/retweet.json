@@ -11,6 +11,14 @@
       "protected": false,
       "verified": true
     },
-    "videoAttribution": { "hasAttribution": true, "attribution": "chià"}
+    "videoAttribution": { "hasAttribution": true, "attribution": "chià"},
+    "urls": [
+      {
+          "start": 73,
+          "url": "https://t.co/5EUnXz8tJJ",
+          "expandedUrl": "https://twitter.com/itsmwengo/status/1413951841419804677/video/1",
+          "displayUrl": "pic.twitter.com/5EUnXz8tJJ"
+      }
+    ]
   }
 }

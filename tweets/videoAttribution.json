@@ -10,6 +10,14 @@
     },
     "dateCreated": "2021-05-23T23:50:31.000Z",
     "text": "haven’t heard anything like this since the LJ 4-point play https://t.co/VT0Kg55RhD",
-    "videoAttribution": { "hasAttribution": true, "attribution": "NEW YORK KNICKS"}
+    "videoAttribution": { "hasAttribution": true, "attribution": "NEW YORK KNICKS"},
+    "urls": [
+      {
+          "start": 59,
+          "url": "https://t.co/VT0Kg55RhD",
+          "expandedUrl": "https://twitter.com/nyknicks/status/1396613887076802566/video/1",
+          "displayUrl": "pic.twitter.com/VT0Kg55RhD"
+      }
+  ]
   }
 }
