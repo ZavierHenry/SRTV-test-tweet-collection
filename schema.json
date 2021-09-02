@@ -162,9 +162,13 @@
                       "displayUrl": {
                         "type": "string",
                         "description": "Display version of the URL"
+                      },
+                      "expandedUrl": {
+                        "type": "string",
+                        "description": "Expanded version of the URL"
                       }
                     },
-                    "required": [ "url", "start", "displayUrl"]
+                    "required": [ "url", "start", "displayUrl", "expandedUrl"]
                   }
                 }
               },
@@ -273,9 +277,13 @@
               "displayUrl": {
                 "type": "string",
                 "description": "Display version of the URL"
+              },
+              "expandedUrl": {
+                "type": "string",
+                "description": "Expanded version of the URL"
               }
             },
-            "required": [ "url", "start", "displayUrl"]
+            "required": [ "url", "start", "displayUrl", "expandedUrl"]
           }
         }
       },
