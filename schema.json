@@ -143,6 +143,29 @@
                 "hasPoll": {
                   "type": "boolean",
                   "description": "Specifies whether the quoted tweet has a poll"
+                },
+                "urls": {
+                  "type": "array",
+                  "description": "Urls in the tweet",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "description": "Shortened url (t.co link)"
+                      },
+                      "start": {
+                        "type": "integer",
+                        "description": "Start index of the url",
+                        "minimum": 0
+                      },
+                      "displayUrl": {
+                        "type": "string",
+                        "description": "Display version of the URL"
+                      }
+                    },
+                    "required": [ "url", "start", "displayUrl"]
+                  }
                 }
               },
               "required": ["author", "dateCreated", "text", "hasPoll" ]
