@@ -377,8 +377,8 @@ let rec generateExamples = function
             |> List.collect (fun (name, examples) -> List.map (fun example -> (name, example)) examples)
 
         let examples =
-            List.map (fun (name, schema) -> (name, generateExamples schema)) required
-            |> List.map (fun (name, examples) -> List.map (fun example -> (name, example)) examples)
+            required
+            |> List.map (fun (name, schema) -> generateExamples schema |> List.map (fun example -> (name, example)))
             |> List.fold (fun state -> List.collect (fun property -> List.map (fun x -> property :: x) state)) [[]]
             |> List.collect (fun x -> x :: List.map (fun y -> y :: x) optionalExamples)
 
