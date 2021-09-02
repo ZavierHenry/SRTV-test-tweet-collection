@@ -11,6 +11,14 @@
             "verified": true,
             "name": "Sarah Spain"
         },
+        "urls": [
+            {
+                "start": 19,
+                "url": "https://t.co/Khob7vnyEz",
+                "expandedUrl": "https://twitter.com/nealbrennan/status/1420021155755343877",
+                "displayUrl": "twitter.com/nealbrennan/st…"
+            }
+        ],
         "quotedTweet": {
             "available": true,
             "tweet": {
@@ -23,7 +31,15 @@
                     "verified": true,
                     "name": "Neal Brennan"
                 },
-                "hasPoll": false
+                "hasPoll": false,
+                "urls": [
+                    {
+                        "start": 253,
+                        "url": "https://t.co/EDsjo50Gnx",
+                        "expandedUrl": "http://unacceptableshow.com",
+                        "displayUrl": "unacceptableshow.com"
+                    }
+                ]
             }
         }
     }

@@ -11,6 +11,14 @@
             "screenName": "mrkitchengh",
             "verified": false
         },
-        "imageAltTexts": [ {"hasAltText": false}]
+        "imageAltTexts": [ {"hasAltText": false}],
+        "urls": [
+            {
+                "start": 28,
+                "url": "https://t.co/gvjRuk1T3P",
+                "expandedUrl": "https://twitter.com/mrkitchengh/status/1422200749707104263/photo/1",
+                "displayUrl": "pic.twitter.com/gvjRuk1T3P"
+            }
+        ]
     }
 }

@@ -11,6 +11,14 @@
             "screenName": "roseliroll",
             "verified": false
         },
-        "imageAltTexts": [ {"hasAltText": false}]
+        "imageAltTexts": [ {"hasAltText": false}],
+        "urls": [
+            {
+                "start": 19,
+                "url": "https://t.co/dHlutDnbir",
+                "expandedUrl": "https://twitter.com/roseliroll/status/1422226488565321729/photo/1",
+                "displayUrl": "pic.twitter.com/dHlutDnbir"
+            }
+        ]
     }
 }

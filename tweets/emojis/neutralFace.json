@@ -11,6 +11,20 @@
             "name": "phil",
             "screenName": "BirdsTheAlbumV2"
         },
+        "urls": [
+            {
+                "url": "https://t.co/ygmRrUb9ao",
+                "start": 22,
+                "displayUrl": "pic.twitter.com/ygmRrUb9ao",
+                "expandedUrl": "https://twitter.com/BirdsTheAlbumV2/status/1422214186327756805/photo/1"
+            },
+            {
+                "url": "https://t.co/ygmRrUb9ao",
+                "start": 22,
+                "displayUrl": "pic.twitter.com/ygmRrUb9ao",
+                "expandedUrl": "https://twitter.com/BirdsTheAlbumV2/status/1422214186327756805/photo/1"
+            }
+        ],
         "imageAltTexts": [ {"hasAltText": false}, {"hasAltText": false}]
     }
 }

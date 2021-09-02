@@ -11,6 +11,14 @@
             "screenName": "Rougerv21",
             "protected": false
         },
-        "imageAltTexts": [ {"hasAltText": false} ]
+        "imageAltTexts": [ {"hasAltText": false} ],
+        "urls": [
+            {
+                "start": 14,
+                "url": "https://t.co/9B7w84L9Km",
+                "expandedUrl": "https://twitter.com/Rougerv21/status/1422319705273024516/photo/1",
+                "displayUrl": "pic.twitter.com/9B7w84L9Km"
+            }
+        ]
     }
 }
