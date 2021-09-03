@@ -10,12 +10,14 @@
       "verified": true,
       "protected": false
     },
-    "urlCard": {
-      "title": "Video: Day of Rage: An In-Depth Look at How a Mob Stormed the Capitol",
-      "description": "A six-month Times investigation has synchronized and mapped out thousands of videos and police radio communications from the Jan. 6 Capitol riot, providing the most complete picture to date of what happened — and why.",
-      "unwoundUrl": "https://www.nytimes.com/video/us/politics/100000007606996/capitol-riot-trump-supporters.html",
-      "url": "https://t.co/3LZUjIMaOs"
-    },
+    "urlCards": [
+      {
+        "title": "Video: Day of Rage: An In-Depth Look at How a Mob Stormed the Capitol",
+        "description": "A six-month Times investigation has synchronized and mapped out thousands of videos and police radio communications from the Jan. 6 Capitol riot, providing the most complete picture to date of what happened — and why.",
+        "unwoundUrl": "https://www.nytimes.com/video/us/politics/100000007606996/capitol-riot-trump-supporters.html",
+        "url": "https://t.co/3LZUjIMaOs"
+      }
+    ],
     "urls": [
       {
           "start": 61,
