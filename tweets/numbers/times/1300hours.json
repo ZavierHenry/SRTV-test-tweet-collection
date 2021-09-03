@@ -11,6 +11,14 @@
             "verified": false,
             "name": "Devon🇯🇲"
         },
-        "imageAltTexts": [ { "hasAltText": false} ]
+        "imageAltTexts": [ { "hasAltText": false} ],
+        "urls": [
+            {
+                "start": 26,
+                "url": "https://t.co/ixhLTjJJZL",
+                "expandedUrl": "https://twitter.com/Lloydie_D/status/1408046405395095563/photo/1",
+                "displayUrl": "pic.twitter.com/ixhLTjJJZL"
+            }
+        ]
     }
 }

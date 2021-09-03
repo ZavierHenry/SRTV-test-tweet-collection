@@ -11,6 +11,52 @@
             "verified": true,
             "name": "드림캐쳐 Dreamcatcher"
         },
-        "imageAltTexts": [ {"hasAltText": false}]
+        "imageAltTexts": [ {"hasAltText": false}],
+        "urlCards": [
+            {
+                "title": "Dreamcatcher(드림캐쳐) 'BEcause' MV Teaser",
+                "description": "Dreamcatcher(드림캐쳐) 'BEcause' MV Teaser2021. 07. 30 PM 18:00🎧Pre-save/add▶ https://smek.lnk.to/SummerHoliday ▶ Dreamcatcher(드림캐쳐) More Information- Dreamcatc...",
+                "unwoundUrl": "https://www.youtube.com/watch?v=EiB4VmE5xmY&feature=youtu.be",
+                "url": "https://t.co/TPJ8Lg9Sxc"
+            },
+            {
+                "title": "[V LIVE] Dreamcatcher \"BEcause\" MV Teaser",
+                "description": "Try watching videos on DREAMCATCHER channel",
+                "unwoundUrl": "https://www.vlive.tv/post/1-24348629",
+                "url": "https://t.co/Fq3Z5wUphD"
+            },
+            {
+                "title": "Dreamcatcher - [Summer Holiday]",
+                "description": "Listen to [Summer Holiday] by Dreamcatcher.",
+                "unwoundUrl": "https://smek.lnk.to/SummerHoliday",
+                "url": "https://t.co/k6sMIH3neI"
+            }
+        ],
+        "urls": [
+            {
+                "start": 67,
+                "url": "https://t.co/TPJ8Lg9Sxc",
+                "expandedUrl": "https://youtu.be/EiB4VmE5xmY",
+                "displayUrl": "youtu.be/EiB4VmE5xmY"
+            },
+            {
+                "start": 93,
+                "url": "https://t.co/Fq3Z5wUphD",
+                "expandedUrl": "https://www.vlive.tv/post/1-24348629",
+                "displayUrl": "vlive.tv/post/1-24348629"
+            },
+            {
+                "start": 135,
+                "url": "https://t.co/k6sMIH3neI",
+                "expandedUrl": "https://smek.lnk.to/SummerHoliday",
+                "displayUrl": "smek.lnk.to/SummerHoliday"
+            },
+            {
+                "start": 228,
+                "url": "https://t.co/PGL1S8YO2g",
+                "expandedUrl": "https://twitter.com/hf_dreamcatcher/status/1419945658753105950/photo/1",
+                "displayUrl": "pic.twitter.com/PGL1S8YO2g"
+            }
+        ]
     }
 }

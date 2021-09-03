@@ -11,6 +11,14 @@
             "screenName": "EthanRosuckWX",
             "name": "Ethan Rosuck"
         },
-        "imageAltTexts": [{"hasAltText": false}]
+        "imageAltTexts": [{"hasAltText": false}],
+        "urls": [
+            {
+                "start": 280,
+                "url": "https://t.co/cgMKnr1nMZ",
+                "expandedUrl": "https://twitter.com/EthanRosuckWX/status/1420614569949597697/photo/1",
+                "displayUrl": "pic.twitter.com/cgMKnr1nMZ"
+            }
+        ]
     }
 }
