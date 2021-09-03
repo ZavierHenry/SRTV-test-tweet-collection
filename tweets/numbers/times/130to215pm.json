@@ -11,6 +11,14 @@
         "id": "1418381507199078400",
         "text": "Microburst over Anthem Time lapse, Shot from River Mountains looking back west towards Anthem and Black Mountain. Video is from around 1:30pm to 2:15pm @TeddFlorendo @8NewsNow https://t.co/ysrMKeoBOg",
         "dateCreated": "2021-07-23T01:24:38.000Z",
-        "videoAttribution": { "hasAttribution": false}
+        "videoAttribution": { "hasAttribution": false},
+        "urls": [
+            {
+                "start": 176,
+                "url": "https://t.co/ysrMKeoBOg",
+                "expandedUrl": "https://twitter.com/tslclick/status/1418381507199078400/video/1",
+                "displayUrl": "pic.twitter.com/ysrMKeoBOg"
+            }
+        ]
     }
 }

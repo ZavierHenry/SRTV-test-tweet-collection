@@ -11,6 +11,32 @@
     },
     "dateCreated": "2021-06-05T00:04:13.000Z",
     "text": "Only one of my kids would be able to enter the #TurkeyLegHut today https://t.co/VWf3RjtjCx",
-    "imageAltTexts": [ {"hasAltText": false}, {"hasAltText": false}, {"hasAltText": false}, {"hasAltText": false} ]
+    "imageAltTexts": [ {"hasAltText": false}, {"hasAltText": false}, {"hasAltText": false}, {"hasAltText": false} ],
+    "urls": [
+      {
+          "start": 67,
+          "url": "https://t.co/VWf3RjtjCx",
+          "expandedUrl": "https://twitter.com/GeorgeFoster72/status/1411838289812901888/photo/1",
+          "displayUrl": "pic.twitter.com/VWf3RjtjCx"
+      },
+      {
+          "start": 67,
+          "url": "https://t.co/VWf3RjtjCx",
+          "expandedUrl": "https://twitter.com/GeorgeFoster72/status/1411838289812901888/photo/1",
+          "displayUrl": "pic.twitter.com/VWf3RjtjCx"
+      },
+      {
+          "start": 67,
+          "url": "https://t.co/VWf3RjtjCx",
+          "expandedUrl": "https://twitter.com/GeorgeFoster72/status/1411838289812901888/photo/1",
+          "displayUrl": "pic.twitter.com/VWf3RjtjCx"
+      },
+      {
+          "start": 67,
+          "url": "https://t.co/VWf3RjtjCx",
+          "expandedUrl": "https://twitter.com/GeorgeFoster72/status/1411838289812901888/photo/1",
+          "displayUrl": "pic.twitter.com/VWf3RjtjCx"
+      }
+  ]
   }
 }

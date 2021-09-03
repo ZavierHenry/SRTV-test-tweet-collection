@@ -9,6 +9,14 @@
     },
     "dateCreated": "2021-07-19T01:47:41.000Z",
     "text": "Four years of Caitlyn Jenner’s tax returns posted here, along with 4-5 years for most of the other candidates. https://t.co/Gz3SSKXwpe",
-    "id": "1416937756727578626"
+    "id": "1416937756727578626",
+    "urls": [
+      {
+          "start": 111,
+          "url": "https://t.co/Gz3SSKXwpe",
+          "expandedUrl": "https://www.sos.ca.gov/elections/upcoming-elections/2021-ca-gov-recall/candidate-tax-return",
+          "displayUrl": "sos.ca.gov/elections/upco…"
+      }
+    ]
   }
 }

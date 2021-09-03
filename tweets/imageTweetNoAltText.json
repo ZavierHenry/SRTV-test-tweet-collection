@@ -10,6 +10,14 @@
     },
     "dateCreated": "2021-05-08T00:48:07.000Z",
     "text": "Tri tip https://t.co/cQrW5FUmYf",
-    "imageAltTexts": [ {"hasAltText": false} ]
+    "imageAltTexts": [ {"hasAltText": false} ],
+    "urls": [
+      {
+          "start": 8,
+          "url": "https://t.co/cQrW5FUmYf",
+          "expandedUrl": "https://twitter.com/BrianMFloyd/status/1390830841157193728/photo/1",
+          "displayUrl": "pic.twitter.com/cQrW5FUmYf"
+      }
+    ]
   }
 }

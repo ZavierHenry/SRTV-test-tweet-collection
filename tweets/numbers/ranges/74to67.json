@@ -14,6 +14,14 @@
             "screenName": "ESPNStatsInfo",
             "verified": true
         },
-        "imageAltTexts": [ {"hasAltText": false} ]
+        "imageAltTexts": [ {"hasAltText": false} ],
+        "urls": [
+            {
+                "start": 137,
+                "url": "https://t.co/mUjyhyktAp",
+                "expandedUrl": "https://twitter.com/ESPNStatsInfo/status/1419328934559289344/photo/1",
+                "displayUrl": "pic.twitter.com/mUjyhyktAp"
+            }
+        ]
     }
 }

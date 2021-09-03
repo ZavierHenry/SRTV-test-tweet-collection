@@ -107,7 +107,7 @@ let tryGetProperty converter key mapping = Map.tryFind key mapping |> Option.bin
 let tryGetIntegerProperty = tryGetProperty tryConvertToInteger
 let tryGetInteger64Property = tryGetProperty tryConvertToInteger64
 let tryGetFloatProperty = tryGetProperty tryConvertToFloat
-let tryGetBooleanProperty = tryGetProperty tryConvertToBoolean
+//let tryGetBooleanProperty = tryGetProperty tryConvertToBoolean
 
 let (|NullType|_|) = matchPropertyType "null" <| fun _ -> Some ()
 let (|BoolType|_|) = matchPropertyType "boolean" <| fun _ -> Some ()
@@ -122,8 +122,8 @@ let (|IntegerType|_|) =
     let handler mapping =
         let minimum = tryGetInteger64Property "minimum" mapping
         let maximum = tryGetInteger64Property "maximum" mapping 
-        let exclusiveMinimum = tryGetInt64Property "exclusiveMinimum" mapping
-        let exclusiveMaximum = tryGetInt64Property "exclusiveMaximum" mapping
+        let exclusiveMinimum = tryGetInteger64Property "exclusiveMinimum" mapping
+        let exclusiveMaximum = tryGetInteger64Property "exclusiveMaximum" mapping
         Some (minimum, maximum, exclusiveMinimum, exclusiveMaximum)
     matchPropertyType "integer" handler
     
@@ -301,11 +301,11 @@ let rec toSchema (definitions:Map<string,Schema>) jsonvalue =
         | IntegerType (min, max, exclusiveMin, exclusiveMax) -> 
             let min =
                 let f = Option.defaultValue Int64.MinValue
-                (f min, (f exclusiveMin) + 1) |> Math.Min
+                (f min, (f exclusiveMin) + 1L) |> Math.Min
             
             let max =
                 let f = Option.defaultValue Int64.MaxValue
-                (f max, ((f exclusiveMax) - 1) |> Math.Max
+                (f max, (f exclusiveMax) - 1L) |> Math.Max
             
             if min > max then TContradiction
             else TInteger ( IntegerConstraint (min, max) )
@@ -316,7 +316,7 @@ let rec toSchema (definitions:Map<string,Schema>) jsonvalue =
             
             let max =
                 let f = Option.defaultValue Double.MaxValue
-                (f max, ((f exclusiveMax) - Double.Epsilon) |> Math.Max
+                (f max, (f exclusiveMax) - Double.Epsilon) |> Math.Max
 
             if min > max then TContradiction
             else TNumber ( NumberConstraint (min, max) )
@@ -377,8 +377,8 @@ let rec generateExamples = function
             |> List.collect (fun (name, examples) -> List.map (fun example -> (name, example)) examples)
 
         let examples =
-            List.map (fun (name, schema) -> (name, generateExamples schema)) required
-            |> List.map (fun (name, examples) -> List.map (fun example -> (name, example)) examples)
+            required
+            |> List.map (fun (name, schema) -> generateExamples schema |> List.map (fun example -> (name, example)))
             |> List.fold (fun state -> List.collect (fun property -> List.map (fun x -> property :: x) state)) [[]]
             |> List.collect (fun x -> x :: List.map (fun y -> y :: x) optionalExamples)
 

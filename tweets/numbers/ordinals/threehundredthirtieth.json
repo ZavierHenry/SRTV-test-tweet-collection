@@ -11,6 +11,14 @@
             "screenName": "SpringFredYT",
             "name": "SpringFreddyYT"
         },
-        "videoAttribution": {"hasAttribution": false}
+        "videoAttribution": {"hasAttribution": false},
+        "urls": [
+            {
+                "start": 42,
+                "url": "https://t.co/JMPD3G1SQ2",
+                "expandedUrl": "https://twitter.com/SpringFredYT/status/1416580674685911046/video/1",
+                "displayUrl": "pic.twitter.com/JMPD3G1SQ2"
+            }
+        ]
     }
 }

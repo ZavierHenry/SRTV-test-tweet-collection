@@ -9,7 +9,15 @@
       "protected": false
     },
     "dateCreated": "2021-05-08T17:03:10.000Z",
-    "text": "This is a weird framing of the story that makes it look like Mark Emmert is making this choice, rather than waving the white flag after many years of intentional foot-dragging. He isn't \"pushing\" for anything. He has been pushed",
+    "text": "This is a weird framing of the story that makes it look like Mark Emmert is making this choice, rather than waving the white flag after many years of intentional foot-dragging. He isn’t “pushing” for anything. He has been pushed https://t.co/DJJaRAiCHI",
+    "urls": [
+      {
+          "start": 229,
+          "url": "https://t.co/DJJaRAiCHI",
+          "expandedUrl": "https://twitter.com/nytimes/status/1391017574201274369",
+          "displayUrl": "twitter.com/nytimes/status…"
+      }
+    ],
     "quotedTweet": {
       "available": true,
       "tweet": {
@@ -21,7 +29,15 @@
         },
         "dateCreated": "2021-05-08T13:10:08.000Z",
         "text": "Breaking News: The NCAA president, under pressure to reshape college sports, told The Times he would push to let athletes cash in on their fame this year. https://t.co/adAEOkgqaK",
-        "hasPoll": false
+        "hasPoll": false,
+        "urls": [
+          {
+              "start": 155,
+              "url": "https://t.co/adAEOkgqaK",
+              "expandedUrl": "https://nyti.ms/3vQq7N5",
+              "displayUrl": "nyti.ms/3vQq7N5"
+          }
+        ]
       }      
     }
   }

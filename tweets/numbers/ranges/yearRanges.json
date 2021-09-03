@@ -13,6 +13,15 @@
             "name": "ESPN Stats & Info",
             "protected": false,
             "verified": true           
-        }
+        },
+        "urls": [
+            {
+                "start": 276,
+                "url": "https://t.co/yChoWJoqjh",
+                "expandedUrl": "https://twitter.com/ESPNStatsInfo/status/1340658215667830784/photo/1",
+                "displayUrl": "pic.twitter.com/yChoWJoqjh"
+            }
+        ],
+        "imageAltTexts": [{"hasAltText": false}]
     }
 }

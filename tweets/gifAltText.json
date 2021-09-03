@@ -13,6 +13,14 @@
         "gifAltText": {
             "hasAltText": true,
             "altText": "I Want You Point GIF by Showtime"
-        }
+        },
+        "urls": [
+            {
+                "url": "https://t.co/JjQklfG8My",
+                "start": 82,
+                "displayUrl": "pic.twitter.com/JjQklfG8My",
+                "expandedUrl": "https://twitter.com/micadavies_/status/1420118959999885312/photo/1"
+            }
+        ]
     }
 }

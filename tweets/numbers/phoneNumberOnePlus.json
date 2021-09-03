@@ -1,6 +1,6 @@
 ﻿{
   "label": "Tweet with phone number in it",
-  "replacements": [{"oldText": "+1 912-612-4665", "newText": "one. nine one two. six one two. four six six five."}],
+  "replacements": [{"oldText": "+1 912-612-4665", "newText": "one. nine one two. six one two. four six six five"}],
   "tweet": {
     "id": "1410128712209682434",
     "author": {

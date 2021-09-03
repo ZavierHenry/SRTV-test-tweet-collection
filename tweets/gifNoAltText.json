@@ -10,6 +10,14 @@
     },
     "dateCreated": "2020-11-06T23:53:18.000Z",
     "text": "So Biden is really gonna win Georgia https://t.co/xXuulK6z0x",
-    "gifAltText": {"hasAltText": false}
+    "gifAltText": {"hasAltText": false},
+    "urls": [
+      {
+          "start": 37,
+          "url": "https://t.co/xXuulK6z0x",
+          "expandedUrl": "https://twitter.com/BigZ_Henry/status/1324862454627758081/photo/1",
+          "displayUrl": "pic.twitter.com/xXuulK6z0x"
+      }
+    ]
   }
 }

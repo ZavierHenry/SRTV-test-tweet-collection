@@ -14,6 +14,14 @@
             "verified": true,
             "protected": false       
         },
-        "imageAltTexts": [ {"hasAltText": false} ]
+        "imageAltTexts": [ {"hasAltText": false} ],
+        "urls": [
+            {
+                "start": 148,
+                "url": "https://t.co/aXLNMueBd3",
+                "expandedUrl": "https://twitter.com/ESPNStatsInfo/status/1419092078336876546/photo/1",
+                "displayUrl": "pic.twitter.com/aXLNMueBd3"
+            }
+        ]
     }
 }

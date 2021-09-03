@@ -11,6 +11,14 @@
     },
     "dateCreated": "2021-06-04T23:48:24.000Z",
     "text": "Kelsey Plum now has 1K career PTS 🔥\n\n(via @WNBA)\nhttps://t.co/nlLQhJf7I9",
-    "videoAttribution": { "attribution": "WNBA", "hasAttribution": true }
+    "videoAttribution": { "attribution": "WNBA", "hasAttribution": true },
+    "urls": [
+      {
+          "start": 49,
+          "url": "https://t.co/nlLQhJf7I9",
+          "expandedUrl": "https://twitter.com/WNBA/status/1411832766434476032/video/1",
+          "displayUrl": "pic.twitter.com/nlLQhJf7I9"
+      }
+    ]
   }
 }

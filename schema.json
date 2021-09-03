@@ -143,6 +143,33 @@
                 "hasPoll": {
                   "type": "boolean",
                   "description": "Specifies whether the quoted tweet has a poll"
+                },
+                "urls": {
+                  "type": "array",
+                  "description": "Urls in the tweet",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "description": "Shortened url (t.co link)"
+                      },
+                      "start": {
+                        "type": "integer",
+                        "description": "Start index of the url",
+                        "minimum": 0
+                      },
+                      "displayUrl": {
+                        "type": "string",
+                        "description": "Display version of the URL"
+                      },
+                      "expandedUrl": {
+                        "type": "string",
+                        "description": "Expanded version of the URL"
+                      }
+                    },
+                    "required": [ "url", "start", "displayUrl", "expandedUrl"]
+                  }
                 }
               },
               "required": ["author", "dateCreated", "text", "hasPoll" ]
@@ -180,28 +207,31 @@
           },
           "required": [ "hasAltText" ]
         },
-        "urlCard": {
-          "type": "object",
-          "description": "Card of url if applicable",
-          "properties": {
-            "title": {
-              "type": "string",
-              "description": "Title of URL card"
+        "urlCards": {
+          "type": "array",
+          "description": "Cards of url if applicable",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "description": "Title of URL card"
+              },
+              "description": {
+                "type": "string",
+                "description": "Description of url card"
+              },
+              "unwoundUrl": {
+                "type": "string",
+                "description": "Full for the url card"
+              },
+              "url": {
+                "type": "string",
+                "description": "Shortened url for the url card"
+              }
             },
-            "description": {
-              "type": "string",
-              "description": "Description of url card"
-            },
-            "url": {
-              "type": "string",
-              "description": "Url for the url card"
-            },
-            "shortenedUrl": {
-              "type": "string",
-              "description": "Shortened url for the url card"
-            }
-          },
-          "required": ["title", "description", "url"]
+            "required": ["title", "description", "url", "unwoundUrl"]
+          }
         },
         "poll": {
           "type": "object",
@@ -231,6 +261,33 @@
             }
           },
           "required": ["endDate", "options"]
+        },
+        "urls": {
+          "type": "array",
+          "description": "Urls in the tweet",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "description": "Shortened url (t.co link)"
+              },
+              "start": {
+                "type": "integer",
+                "description": "Start index of the url",
+                "minimum": 0
+              },
+              "displayUrl": {
+                "type": "string",
+                "description": "Display version of the URL"
+              },
+              "expandedUrl": {
+                "type": "string",
+                "description": "Expanded version of the URL"
+              }
+            },
+            "required": [ "url", "start", "displayUrl", "expandedUrl"]
+          }
         }
       },
       "description": "The test tweet",

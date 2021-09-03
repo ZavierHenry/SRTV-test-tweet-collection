@@ -11,6 +11,14 @@
             "verified": false,
             "name": "HTown Ric🚀 / HTown Sports Fanatic 🏀⚾️🏈"
         },
-        "gifAltText": {"hasAltText": true, "altText": "Green Throws Up The H Jalen Green Throws Up The H GIF"}
+        "gifAltText": {"hasAltText": true, "altText": "Green Throws Up The H Jalen Green Throws Up The H GIF"},
+        "urls": [
+            {
+                "start": 109,
+                "url": "https://t.co/Q2LbvEUJO1",
+                "expandedUrl": "https://twitter.com/CohetsFan/status/1425820295219355648/photo/1",
+                "displayUrl": "pic.twitter.com/Q2LbvEUJO1"
+            }
+        ]
     }
 }

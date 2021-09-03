@@ -11,6 +11,14 @@
             "verified": false,
             "name": "moe | SWITCH ON D-DAY💡🎉"
         },
-        "imageAltTexts": [ { "hasAltText": false}]
+        "imageAltTexts": [ { "hasAltText": false}],
+        "urls": [
+            {
+                "start": 70,
+                "url": "https://t.co/dwXDfeTO5m",
+                "expandedUrl": "https://twitter.com/Minhyukbaby99/status/1422037372384911361/photo/1",
+                "displayUrl": "pic.twitter.com/dwXDfeTO5m"
+            }
+        ]
     }
 }

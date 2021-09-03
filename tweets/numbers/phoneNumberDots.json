@@ -11,6 +11,14 @@
       "name": "Creative Bus Sales",
       "screenName": "creativebussale"
     },
-    "imageAltTexts": [ {"hasAltText": false} ]
+    "imageAltTexts": [ {"hasAltText": false} ],
+    "urls": [
+      {
+          "start": 219,
+          "url": "https://t.co/Btzp4QmxQ0",
+          "expandedUrl": "https://twitter.com/creativebussale/status/1415332765101346819/photo/1",
+          "displayUrl": "pic.twitter.com/Btzp4QmxQ0"
+      }
+    ]
   }
 }
