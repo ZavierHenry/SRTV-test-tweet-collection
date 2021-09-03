@@ -85,31 +85,14 @@
       },
       "dateCreated": "2021-06-07T01:10:35.000Z",
       "text": "Basic tweet sample text",
-      "urlCard": {
-        "title": "URL card title",
-        "description": "URL card description",
-        "url": "https://cardurl.com"
-      }
-    }
-  },
-  {
-    "label": "Basic tweet sample with card with shortened url",
-    "tweet": {
-      "id": "12309238423902232342",
-      "author": {
-        "name": "Twitter Name",
-        "screenName": "TwitterScreenName",
-        "verified": false,
-        "protected": false
-      },
-      "dateCreated": "2021-06-07T01:10:35.000Z",
-      "text": "Basic tweet sample text",
-      "urlCard": {
-        "shortenedUrl": "t.co/SHURL",
-        "title": "URL card title",
-        "description": "URL card description",
-        "url": "https://cardurl.com"
-      }
+      "urlCards": [
+        {
+          "title": "URL card title",
+          "description": "URL card description",
+          "url": "https://t.co/fdf43JFD",
+          "unwoundUrl": "https://unwoundurl.com"
+        }
+      ]
     }
   },
   {
@@ -461,5 +444,64 @@
     "replacements": [
       {"oldText": "sample", "newText": "Sample" }
     ]
+  },
+  {
+    "label": "Basic tweet with urls",
+    "tweet": {
+      "author": {
+        "name": "Twitter Name",
+        "screenName": "TwitterScreenName",
+        "verified": false,
+        "protected": false
+      },
+      "id": "12309238423902232342",
+      "dateCreated": "2021-06-07T01:10:35.000Z",
+      "text": "Basic tweet sample text",
+      "urls": [
+        {
+          "url": "https://t.co/fdf43JFD",
+          "start": 2,
+          "displayUrl": "https://displayurl.com",
+          "expandedUrl": "https://expandedurl.com"
+        }
+      ]
+    }
+  },
+  {
+    "label": "Quoted reply tweet with urls",
+    "tweet": {
+      "id": "12309238423902232342",
+      "author": {
+        "name": "Twitter Name",
+        "screenName": "TwitterScreenName",
+        "verified": false,
+        "protected": false
+      },
+      "dateCreated": "2021-06-07T01:10:35.000Z",
+      "text": "Basic tweet sample text",
+      "quotedTweet": {
+        "available": true,
+        "tweet": {
+          "author": {
+            "name": "Original Twitter Name",
+            "screenName": "OriginalTwitterName",
+            "verified": false,
+            "protected": false
+          },
+          "dateCreated": "2021-06-06T11:05:31.000Z",
+          "text": "Original text",
+          "hasPoll": false,
+          "videoAttribution": { "hasAttribution": true, "attribution":"Video attribution"},
+          "urls": [
+            {
+              "url": "https://t.co/fdf43JFD",
+              "start": 2,
+              "displayUrl": "https://displayurl.com",
+              "expandedUrl": "https://expandedurl.com"
+            }
+          ]
+        }
+      }
+    }
   }
 ]
