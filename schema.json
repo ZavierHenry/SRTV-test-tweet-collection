@@ -169,7 +169,8 @@
                       },
                       "type": {
                         "type:": "string",
-                        "enum": [ "regular", "quoteTweet", "media" ]
+                        "enum": [ "regular", "quoteTweet", "media" ],
+                        "description": "The type of url (regular, media, or quoteTweet)"
                       }
                     },
                     "required": [ "url", "start", "displayUrl", "expandedUrl", "type" ]
@@ -291,7 +292,8 @@
               },
               "type": {
                 "type:": "string",
-                "enum": [ "regular", "quoteTweet", "media" ]
+                "enum": [ "regular", "quoteTweet", "media" ],
+                "description": "The type of url (regular, media, or quoteTweet)"
               }
             },
             "required": [ "url", "start", "displayUrl", "expandedUrl", "type" ]
