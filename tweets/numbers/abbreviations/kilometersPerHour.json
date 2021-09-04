@@ -25,13 +25,15 @@
                 "start": 52,
                 "url": "https://t.co/1Td2183teC",
                 "expandedUrl": "http://dlvr.it/S5TVRF",
-                "displayUrl": "dlvr.it/S5TVRF"
+                "displayUrl": "dlvr.it/S5TVRF",
+                "type": "regular"
             },
             {
                 "start": 76,
                 "url": "https://t.co/pa9sfeihAP",
                 "expandedUrl": "https://twitter.com/GlobalNational/status/1425616800385953793/photo/1",
-                "displayUrl": "pic.twitter.com/pa9sfeihAP"
+                "displayUrl": "pic.twitter.com/pa9sfeihAP",
+                "type": "media"
             }
         ]
     }

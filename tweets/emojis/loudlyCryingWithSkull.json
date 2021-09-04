@@ -19,7 +19,8 @@
           "start": 14,
           "url": "https://t.co/VJ9uzvFgcn",
           "expandedUrl": "https://twitter.com/flow349/status/1410324354366324736",
-          "displayUrl": "twitter.com/flow349/status…"
+          "displayUrl": "twitter.com/flow349/status…",
+          "type": "quoteTweet"
       }
     ],
     "quotedTweet": {
@@ -40,7 +41,8 @@
               "start": 37,
               "url": "https://t.co/nN2R3pkfob",
               "expandedUrl": "https://twitter.com/flow349/status/1410324354366324736/video/1",
-              "displayUrl": "pic.twitter.com/nN2R3pkfob"
+              "displayUrl": "pic.twitter.com/nN2R3pkfob",
+              "type": "media"
           }
         ]
       }

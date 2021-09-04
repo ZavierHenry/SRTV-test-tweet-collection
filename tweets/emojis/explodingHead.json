@@ -16,7 +16,8 @@
                 "start": 19,
                 "url": "https://t.co/Khob7vnyEz",
                 "expandedUrl": "https://twitter.com/nealbrennan/status/1420021155755343877",
-                "displayUrl": "twitter.com/nealbrennan/st…"
+                "displayUrl": "twitter.com/nealbrennan/st…",
+                "type": "quoteTweet"
             }
         ],
         "quotedTweet": {
@@ -37,7 +38,8 @@
                         "start": 253,
                         "url": "https://t.co/EDsjo50Gnx",
                         "expandedUrl": "http://unacceptableshow.com",
-                        "displayUrl": "unacceptableshow.com"
+                        "displayUrl": "unacceptableshow.com",
+                        "type": "regular"
                     }
                 ]
             }

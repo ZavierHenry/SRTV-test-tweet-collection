@@ -25,13 +25,15 @@
                 "start": 55,
                 "url": "https://t.co/xxINjXlc9C",
                 "expandedUrl": "https://www.nintendolife.com/news/2021/08/the_voice_of_mario_from_the_early_90s_has_passed_away",
-                "displayUrl": "nintendolife.com/news/2021/08/t…"
+                "displayUrl": "nintendolife.com/news/2021/08/t…",
+                "type": "regular"
             },
             {
                 "start": 91,
                 "url": "https://t.co/D0tZ34m0mK",
                 "expandedUrl": "https://twitter.com/nintendolife/status/1425796719753768963/photo/1",
-                "displayUrl": "pic.twitter.com/D0tZ34m0mK"
+                "displayUrl": "pic.twitter.com/D0tZ34m0mK",
+                "type": "media"
             }
         ]
     }

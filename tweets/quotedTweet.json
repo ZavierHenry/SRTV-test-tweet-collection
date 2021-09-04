@@ -15,7 +15,8 @@
           "start": 229,
           "url": "https://t.co/DJJaRAiCHI",
           "expandedUrl": "https://twitter.com/nytimes/status/1391017574201274369",
-          "displayUrl": "twitter.com/nytimes/status…"
+          "displayUrl": "twitter.com/nytimes/status…",
+          "type": "quoteTweet"
       }
     ],
     "quotedTweet": {
@@ -35,7 +36,8 @@
               "start": 155,
               "url": "https://t.co/adAEOkgqaK",
               "expandedUrl": "https://nyti.ms/3vQq7N5",
-              "displayUrl": "nyti.ms/3vQq7N5"
+              "displayUrl": "nyti.ms/3vQq7N5",
+              "type": "regular"
           }
         ]
       }      

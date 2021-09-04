@@ -166,9 +166,14 @@
                       "expandedUrl": {
                         "type": "string",
                         "description": "Expanded version of the URL"
+                      },
+                      "type": {
+                        "type:": "string",
+                        "enum": [ "regular", "quoteTweet", "media" ],
+                        "description": "The type of url (regular, media, or quoteTweet)"
                       }
                     },
-                    "required": [ "url", "start", "displayUrl", "expandedUrl"]
+                    "required": [ "url", "start", "displayUrl", "expandedUrl", "type" ]
                   }
                 }
               },
@@ -284,9 +289,14 @@
               "expandedUrl": {
                 "type": "string",
                 "description": "Expanded version of the URL"
+              },
+              "type": {
+                "type:": "string",
+                "enum": [ "regular", "quoteTweet", "media" ],
+                "description": "The type of url (regular, media, or quoteTweet)"
               }
             },
-            "required": [ "url", "start", "displayUrl", "expandedUrl"]
+            "required": [ "url", "start", "displayUrl", "expandedUrl", "type" ]
           }
         }
       },

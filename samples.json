@@ -462,7 +462,8 @@
           "url": "https://t.co/fdf43JFD",
           "start": 2,
           "displayUrl": "https://displayurl.com",
-          "expandedUrl": "https://expandedurl.com"
+          "expandedUrl": "https://expandedurl.com",
+          "type": "regular"
         }
       ]
     }
@@ -497,7 +498,8 @@
               "url": "https://t.co/fdf43JFD",
               "start": 2,
               "displayUrl": "https://displayurl.com",
-              "expandedUrl": "https://expandedurl.com"
+              "expandedUrl": "https://expandedurl.com",
+              "type": "regular"
             }
           ]
         }
