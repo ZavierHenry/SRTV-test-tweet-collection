@@ -16,13 +16,15 @@
                 "url": "https://t.co/ygmRrUb9ao",
                 "start": 22,
                 "displayUrl": "pic.twitter.com/ygmRrUb9ao",
-                "expandedUrl": "https://twitter.com/BirdsTheAlbumV2/status/1422214186327756805/photo/1"
+                "expandedUrl": "https://twitter.com/BirdsTheAlbumV2/status/1422214186327756805/photo/1",
+                "type": "media"
             },
             {
                 "url": "https://t.co/ygmRrUb9ao",
                 "start": 22,
                 "displayUrl": "pic.twitter.com/ygmRrUb9ao",
-                "expandedUrl": "https://twitter.com/BirdsTheAlbumV2/status/1422214186327756805/photo/1"
+                "expandedUrl": "https://twitter.com/BirdsTheAlbumV2/status/1422214186327756805/photo/1",
+                "type": "media"
             }
         ],
         "imageAltTexts": [ {"hasAltText": false}, {"hasAltText": false}]

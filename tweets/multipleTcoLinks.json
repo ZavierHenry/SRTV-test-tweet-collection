@@ -24,13 +24,15 @@
           "start": 67,
           "url": "https://t.co/CAF9fuAc48",
           "expandedUrl": "https://www.churchofengland.org/media-and-news/news-releases/first-ever-general-synod-elections-ad-campaign",
-          "displayUrl": "churchofengland.org/media-and-news…"
+          "displayUrl": "churchofengland.org/media-and-news…",
+          "type": "regular"
       },
       {
           "start": 218,
           "url": "https://t.co/vIxXRviG8P",
           "expandedUrl": "https://twitter.com/RevDavidGreen/status/1413443556484653061/photo/1",
-          "displayUrl": "pic.twitter.com/vIxXRviG8P"
+          "displayUrl": "pic.twitter.com/vIxXRviG8P",
+          "type": "media"
       }
     ]
   }
