@@ -31,19 +31,22 @@
                 "start": 102,
                 "url": "https://t.co/eeMVUtfaEF",
                 "expandedUrl": "http://MiLB.tv",
-                "displayUrl": "MiLB.tv"
+                "displayUrl": "MiLB.tv",
+                "type": "regular"
             },
             {
                 "start": 134,
                 "url": "https://t.co/bZ7n8x842w",
                 "expandedUrl": "http://atmilb.com/3w0L6NB",
-                "displayUrl": "atmilb.com/3w0L6NB"
+                "displayUrl": "atmilb.com/3w0L6NB",
+                "type": "regular"
             },
             {
                 "start": 158,
                 "url": "https://t.co/VfRctp5f0r",
                 "expandedUrl": "https://twitter.com/epchihuahuas/status/1423433644409032708/photo/1",
-                "displayUrl": "pic.twitter.com/VfRctp5f0r"
+                "displayUrl": "pic.twitter.com/VfRctp5f0r",
+                "type": "media"
             }
         ]
     }

@@ -16,8 +16,10 @@
                 "start": 175,
                 "url": "https://t.co/luv0zvPp1c",
                 "expandedUrl": "https://twitter.com/ESPNStatsInfo/status/1419129786602037250/photo/1",
-                "displayUrl": "pic.twitter.com/luv0zvPp1c"
+                "displayUrl": "pic.twitter.com/luv0zvPp1c",
+                "type": "media"
             }
-        ]
+        ],
+        "imageAltTexts": [{"hasAltText": false}]
     }
 }

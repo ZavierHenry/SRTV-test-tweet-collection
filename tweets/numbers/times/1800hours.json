@@ -37,25 +37,29 @@
                 "start": 67,
                 "url": "https://t.co/TPJ8Lg9Sxc",
                 "expandedUrl": "https://youtu.be/EiB4VmE5xmY",
-                "displayUrl": "youtu.be/EiB4VmE5xmY"
+                "displayUrl": "youtu.be/EiB4VmE5xmY",
+                "type": "regular"
             },
             {
                 "start": 93,
                 "url": "https://t.co/Fq3Z5wUphD",
                 "expandedUrl": "https://www.vlive.tv/post/1-24348629",
-                "displayUrl": "vlive.tv/post/1-24348629"
+                "displayUrl": "vlive.tv/post/1-24348629",
+                "type": "regular"
             },
             {
                 "start": 135,
                 "url": "https://t.co/k6sMIH3neI",
                 "expandedUrl": "https://smek.lnk.to/SummerHoliday",
-                "displayUrl": "smek.lnk.to/SummerHoliday"
+                "displayUrl": "smek.lnk.to/SummerHoliday",
+                "type": "regular"
             },
             {
                 "start": 228,
                 "url": "https://t.co/PGL1S8YO2g",
                 "expandedUrl": "https://twitter.com/hf_dreamcatcher/status/1419945658753105950/photo/1",
-                "displayUrl": "pic.twitter.com/PGL1S8YO2g"
+                "displayUrl": "pic.twitter.com/PGL1S8YO2g",
+                "type": "media"
             }
         ]
     }
